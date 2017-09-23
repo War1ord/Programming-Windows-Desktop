@@ -1,0 +1,19 @@
+﻿<UserControl x:Class="Framework.Wpf.Mvvm.UI.UserControls.Stock.StockTypeUserControl"
+		xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+		xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+		xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+		xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+		xmlns:stock="clr-namespace:Framework.Wpf.Mvvm.UI.ViewModels.Stock"
+		mc:Ignorable="d"
+		d:DataContext="{d:DesignInstance stock:StockTypeViewModel}">
+	<StackPanel Orientation="Vertical" MinWidth="200">
+		<Label HorizontalAlignment="Center">Stock Type Name</Label>
+		<TextBox Text="{Binding StockType.Name, UpdateSourceTrigger=PropertyChanged}"></TextBox>
+		<Label HorizontalAlignment="Center">Stock Type Group</Label>
+		<ComboBox ItemsSource="{Binding StockTypeGroups}"
+				  SelectedItem="{Binding SelectedGroup}"
+				  DisplayMemberPath="Name"/>
+		<Button IsDefault="True" Command="{Binding SaveCommand}">Save</Button>
+		<Button IsCancel="True">Cancel</Button>
+	</StackPanel>
+</UserControl>

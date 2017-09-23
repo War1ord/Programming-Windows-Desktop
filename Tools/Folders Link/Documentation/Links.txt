@@ -1,0 +1,10 @@
+Windows folder link :
+https://www.google.co.za/search?q=windows+folder+link&oq=windows+folder+link&aqs=chrome..69i57.248j0j7&sourceid=chrome&espv=210&es_sm=122&ie=UTF-8
+http://en.wikipedia.org/wiki/NTFS_symbolic_link
+http://stackoverflow.com/questions/46885/how-to-create-symbolic-links-in-windows
+http://www.hanselman.com/blog/MoreOnVistaReparsePoints.aspx
+
+
+C# cmd command display command return:
+https://www.google.co.za/search?q=c%23+cmd+command+display+command+return&oq=C%23+cmd+&aqs=chrome.3.69i57j69i58j69i59l2j0l2.5612j0j7&sourceid=chrome&espv=210&es_sm=122&ie=UTF-8
+http://stackoverflow.com/questions/9304861/c-sharp-execute-command-line-and-return-string

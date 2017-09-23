@@ -1,0 +1,3 @@
+- easy and express add of stock ( inline stock type select or add )
+- quick reports ( per area, stock type )
+- search page with filters (area, stock type, ....)

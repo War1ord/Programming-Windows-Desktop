@@ -1,0 +1,20 @@
+﻿<UserControl x:Class="Framework.Wpf.Mvvm.UI.UserControls.Stock.AreaUserControl"
+		xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+		xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+		xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+		xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+		xmlns:vm="clr-namespace:Framework.Wpf.Mvvm.UI.ViewModels.Stock"
+		mc:Ignorable="d"
+		d:DataContext="{d:DesignInstance vm:AreaViewModel}">
+	<StackPanel Orientation="Vertical" MinWidth="200">
+		<Label HorizontalAlignment="Center">Area Name</Label>
+		<TextBox Text="{Binding Area.Name, UpdateSourceTrigger=PropertyChanged}"></TextBox>
+		<Label HorizontalAlignment="Center">Area Type</Label>
+		<ComboBox ItemsSource="{Binding AreaTypes}"
+				  SelectedItem="{Binding SelectedType}"
+				  DisplayMemberPath="Name"
+			/>
+		<Button IsDefault="True" Command="{Binding SaveCommand}">Save</Button>
+		<Button IsCancel="True">Cancel</Button>
+	</StackPanel>
+</UserControl>

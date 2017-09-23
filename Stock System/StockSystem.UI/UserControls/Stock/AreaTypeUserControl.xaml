@@ -1,0 +1,15 @@
+﻿<UserControl x:Class="Framework.Wpf.Mvvm.UI.UserControls.Stock.AreaTypeUserControl"
+		xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+		xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+		xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+		xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:stock="clr-namespace:Framework.Wpf.Mvvm.UI.ViewModels.Stock"
+		mc:Ignorable="d"
+		d:DataContext="{d:DesignInstance stock:AreaTypeViewModel}">
+	<StackPanel Orientation="Vertical" MinWidth="200">
+		<Label HorizontalAlignment="Center">Area Type Name</Label>
+		<TextBox Text="{Binding AreaType.Name, UpdateSourceTrigger=PropertyChanged}"></TextBox>
+		<Button Command="{Binding SaveCommand}">Save</Button>
+		<Button IsCancel="True" Command="{Binding CancelCommand}">Cancel</Button>
+	</StackPanel>
+</UserControl>

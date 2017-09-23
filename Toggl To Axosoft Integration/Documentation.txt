@@ -1,0 +1,2 @@
+an application that uses 2 login credentials for toggl and axosoft to use both sites api's to update time logs
+- idea 2 : add a function or different application to just show a summary of time worked.

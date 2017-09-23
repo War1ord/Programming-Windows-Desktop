@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Framework.Wpf.Mvvm.Core", "Framework.Wpf.Mvvm.Core\Framework.Wpf.Mvvm.Core.csproj", "{AC34BCC3-4E26-4D0C-B599-65C10F830FDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Framework.Wpf.Mvvm.UI", "Framework.Wpf.Mvvm.UI\Framework.Wpf.Mvvm.UI.csproj", "{655B7BAA-B52F-4DFD-8008-7F16B5DBCC79}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{AC14A92C-3A16-4F38-9FA8-9714DC028CE2}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation.txt = Documentation.txt
+		ThemeZonePreview.png = ThemeZonePreview.png
+		Wpf.Framework.xmind = Wpf.Framework.xmind
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC34BCC3-4E26-4D0C-B599-65C10F830FDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC34BCC3-4E26-4D0C-B599-65C10F830FDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC34BCC3-4E26-4D0C-B599-65C10F830FDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC34BCC3-4E26-4D0C-B599-65C10F830FDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{655B7BAA-B52F-4DFD-8008-7F16B5DBCC79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{655B7BAA-B52F-4DFD-8008-7F16B5DBCC79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{655B7BAA-B52F-4DFD-8008-7F16B5DBCC79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{655B7BAA-B52F-4DFD-8008-7F16B5DBCC79}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

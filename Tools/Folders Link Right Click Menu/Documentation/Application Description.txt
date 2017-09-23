@@ -1,0 +1,1 @@
+This application is intended to be used where you need to create a folder link to another folder because you cannot change or move the path or the application.

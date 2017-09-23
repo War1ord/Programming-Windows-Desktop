@@ -1,0 +1,58 @@
+﻿<Window x:Class="Business_Management.UserInterface.Admin.Windows.Setup.ConnectionSetup"
+        x:Name="ConnectionSetupWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Business_Management.UserInterface.Admin.Windows.Setup"
+        xmlns:vm="clr-namespace:Business_Management.UserInterface.Admin.ViewModels.Setup"
+        mc:Ignorable="d"
+        Title="Business Management - Connection Setup" 
+        Width="400" 
+        Height="319" 
+        WindowStyle="ToolWindow" 
+        ResizeMode="NoResize" 
+        d:DataContext="{d:DesignInstance vm:ConnectionSetupViewModel}"
+        >
+    <Grid Margin="5px">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="20px"/>
+        </Grid.RowDefinitions>
+        <StackPanel Orientation="Vertical" Grid.Row="0">
+            <TextBlock Text="Location" HorizontalAlignment="Center" Margin="0 0 0 5px" />
+            <RadioButton GroupName="location" Content="Local Connection" IsChecked="{Binding LocalConnection}" ToolTip="when installing admin application directly to the server." />
+            <RadioButton GroupName="location" Content="Remote Connection" IsChecked="{Binding RemoteConnection}"  ToolTip="when installing the admin application on a different server." />
+            <Separator Margin="0 10px 0 10px"/>
+            <TextBlock Text="Authentication" HorizontalAlignment="Center" Margin="0 0 0 5px" />
+            <RadioButton GroupName="authentication" Content="Windows Authentication" IsChecked="{Binding WindowsAuthentication}" ToolTip="use your windows account's login credentials." />
+            <RadioButton GroupName="authentication" Content="Sql Server Authentication" IsChecked="{Binding SqlServerAuthentication}" ToolTip="use a username and password to login to sql server." />
+            <Separator Margin="0 10px 0 10px"/>
+            <TextBlock Text="Sql Server" HorizontalAlignment="Center" Margin="0 0 0 5px" />
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="20px"/>
+                    <RowDefinition Height="20px"/>
+                    <RowDefinition Height="20px"/>
+                    <RowDefinition Height="20px"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="3*"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Grid.Column="0" Grid.Row="0" Text="Sql Server : " HorizontalAlignment="Left" />
+                <TextBlock Grid.Column="0" Grid.Row="1" Text="Sql Instance : " HorizontalAlignment="Left" />
+                <TextBlock Grid.Column="0" Grid.Row="2" Text="Username : " HorizontalAlignment="Left" />
+                <TextBlock Grid.Column="0" Grid.Row="3" Text="Password : " HorizontalAlignment="Left" />
+                <TextBox Grid.Column="1" Grid.Row="0" Text="{Binding Server, UpdateSourceTrigger=PropertyChanged}" IsEnabled="{Binding IsEnabledServer}" ToolTip="Enter the sql server ip or name on the network." />
+                <TextBox Grid.Column="1" Grid.Row="1" Text="{Binding SqlInstance}" IsEnabled="{Binding IsEnabledSqlInstance}" ToolTip="Enter the sql server instance name on the sql server (blank if default instance name)." />
+                <TextBox Grid.Column="1" Grid.Row="2" Text="{Binding Username, UpdateSourceTrigger=PropertyChanged}" IsEnabled="{Binding IsEnabledUsername}" ToolTip="Enter the username used to log into the sql server if you selected the sql server authentication." />
+                <PasswordBox Grid.Column="1" Grid.Row="3" PasswordChanged="PasswordBox_PasswordChanged" IsEnabled="{Binding IsEnabledSecurePassword}" ToolTip="Enter the password used to log into the sql server if you selected the sql server authentication." />
+            </Grid>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="2">
+            <Button Content="Save" Command="{Binding SaveCommand, Mode=OneWay}" CommandParameter="{Binding ElementName=ConnectionSetupWindow}" />
+            <Button Content="Cancel" Command="{Binding CancelCommand, Mode=OneWay}" CommandParameter="{Binding ElementName=ConnectionSetupWindow}" />
+        </StackPanel>
+    </Grid>
+</Window>

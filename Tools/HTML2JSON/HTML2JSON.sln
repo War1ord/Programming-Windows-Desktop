@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HTML2JSON", "HTML2JSON\HTML2JSON.csproj", "{60257424-166B-4B7F-94C2-EBD4E1A8FEA4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Documentation", "01 - Documentation", "{1A866086-C2FC-426E-933F-8A9C030F98D7}"
+	ProjectSection(SolutionItems) = preProject
+		Description.txt = Description.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Business", "02 - Business", "{722E239C-771C-45A8-BFEA-567E199E1650}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - UI", "03 - UI", "{7C48B3CE-9D03-4F6C-A146-CB4D2EDC8B97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HTML2JSON.Business", "HTML2JSON.Business\HTML2JSON.Business.csproj", "{4E9FE926-E4AB-48E7-A840-0CC90710643B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 - Tests", "04 - Tests", "{B95D1F10-6148-4236-A723-BC8C2306BBBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HTML2JSON.Business.Tests", "HTML2JSON.Business.Tests\HTML2JSON.Business.Tests.csproj", "{6DAEE358-B6FE-4A5A-BACB-CF8D3C677333}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "HTML2JSON.Business.FS", "HTML2JSON.Business.FS\HTML2JSON.Business.FS.fsproj", "{6AE95402-C86F-4035-A62D-8E25F028BC18}"
+EndProject
+Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{60257424-166B-4B7F-94C2-EBD4E1A8FEA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60257424-166B-4B7F-94C2-EBD4E1A8FEA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60257424-166B-4B7F-94C2-EBD4E1A8FEA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60257424-166B-4B7F-94C2-EBD4E1A8FEA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E9FE926-E4AB-48E7-A840-0CC90710643B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E9FE926-E4AB-48E7-A840-0CC90710643B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E9FE926-E4AB-48E7-A840-0CC90710643B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E9FE926-E4AB-48E7-A840-0CC90710643B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DAEE358-B6FE-4A5A-BACB-CF8D3C677333}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DAEE358-B6FE-4A5A-BACB-CF8D3C677333}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DAEE358-B6FE-4A5A-BACB-CF8D3C677333}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DAEE358-B6FE-4A5A-BACB-CF8D3C677333}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AE95402-C86F-4035-A62D-8E25F028BC18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AE95402-C86F-4035-A62D-8E25F028BC18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AE95402-C86F-4035-A62D-8E25F028BC18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AE95402-C86F-4035-A62D-8E25F028BC18}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{60257424-166B-4B7F-94C2-EBD4E1A8FEA4} = {7C48B3CE-9D03-4F6C-A146-CB4D2EDC8B97}
+		{4E9FE926-E4AB-48E7-A840-0CC90710643B} = {722E239C-771C-45A8-BFEA-567E199E1650}
+		{6DAEE358-B6FE-4A5A-BACB-CF8D3C677333} = {B95D1F10-6148-4236-A723-BC8C2306BBBF}
+		{6AE95402-C86F-4035-A62D-8E25F028BC18} = {722E239C-771C-45A8-BFEA-567E199E1650}
+	EndGlobalSection
+EndGlobal

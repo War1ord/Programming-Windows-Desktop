@@ -1,0 +1,25 @@
+- Rules need to be easily accessible 
+	> look at enums or dynamic enums
+	> maybe when on rules change then rebuild an dynamic enum
+- Values need to be passed 1 or more 
+	> maybe by an object array, or object params (params object)
+- Values need to be linked to a Rule or more 
+	> ??!!??
+- To get a way to easily interface different values that are affected by a rule execution. 
+	> ??!!??
+- R&D: mediator pattern to maybe have a action/delegate linked to a key in an application singleton to be globally available 
+	> maybe a way to solve point (a way to easily interface different values that are affected by a rule execution)
+- R&D: Code execution / Code injection by text scripts (compile code on-the-fly)
+	> CompileAssemblyFromFile : http://msdn.microsoft.com/en-us/library/system.codedom.compiler.codedomprovider.compileassemblyfromfile.aspx
+	> Microsoft Roslyn: http://msdn.microsoft.com/en-us/vstudio/roslyn.aspx
+	> C# Eval: http://csharp-eval.com/
+	> Run-Time Code Generation I: Compile C#-Code using Microsoft.CSharp and System.CodeCom.Compiler:  http://www.codeproject.com/Articles/12499/Run-Time-Code-Generation-I-Compile-C-Code-using-Mi
+	> Compiling code during runtime: http://www.codeproject.com/Articles/10324/Compiling-code-during-runtime
+	> CInject - Code Inject & Runtime Intelligence: https://codeinject.codeplex.com/
+- Make rules engine generic and the set-up user friendly 
+	> User friendly tools
+	> no business specific wording or logic!!
+- Need to find out for a nice and elegant way to integrate a database to this business module. 
+	> to integrate with an existing or new business module
+	> and to integrate to an existing or new data layer 
+	> might need my own domain model module, and then just include this to data layer. Then I can just include or use the business rules engine in the other business layers

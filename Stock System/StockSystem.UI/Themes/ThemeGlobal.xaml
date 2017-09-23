@@ -1,0 +1,61 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+	<Style TargetType="Window">
+		<!--<Setter Property="Background" Value="{DynamicResource BackgroundKey}" />-->
+	</Style>
+
+	<Style TargetType="TextBlock">
+		<!--<Setter Property="Background" Value="{DynamicResource BackgroundKey}"/>-->
+		<Setter Property="FontSize" Value="{DynamicResource GlobalFontSize}" />
+		<Setter Property="FontFamily" Value="{DynamicResource GlobalFontFamily}" />
+		<!--<Setter Property="Foreground" Value="{DynamicResource GlobalFontFrontgroundColor}" />-->
+
+	</Style>
+
+	<Style TargetType="TextBox">
+		<!--<Setter Property="Background" Value="{DynamicResource BackgroundKey}"/>-->
+		<Setter Property="FontSize" Value="{DynamicResource GlobalFontSize}" />
+		<Setter Property="FontFamily" Value="{DynamicResource GlobalFontFamily}" />
+		<!--<Setter Property="Foreground" Value="{DynamicResource GlobalFontFrontgroundColor}" />-->
+	</Style>
+
+	<Style TargetType="Label">
+		<!--<Setter Property="Background" Value="{DynamicResource BackgroundKey}"/>-->
+		<Setter Property="FontSize" Value="{DynamicResource GlobalFontSize}" />
+		<Setter Property="FontFamily" Value="{DynamicResource GlobalFontFamily}" />
+		<!--<Setter Property="Foreground" Value="{DynamicResource GlobalFontFrontgroundColor}" />-->
+	</Style>
+
+	<Style TargetType="Button">
+		<!--<Setter Property="Background" Value="{DynamicResource BackgroundKey}"/>-->
+	</Style>
+	
+	<Style TargetType="ComboBox">
+		<!--<Setter Property="Background" Value="{DynamicResource BackgroundKey}"/>-->
+
+		<Setter Property="MinWidth" Value="100"/>
+	</Style>
+
+	<Style TargetType="Menu">
+		<!--<Setter Property="Background" Value="{DynamicResource BackgroundKey}"/>-->
+	</Style>
+	
+	<Style TargetType="MenuItem">
+		<!--<Setter Property="Background" Value="{DynamicResource BackgroundKey}"/>-->
+	</Style>
+	
+	<Style TargetType="Separator">
+		<!--<Setter Property="Background" Value="{DynamicResource BackgroundKey}"/>-->
+	</Style>
+	
+	<Style TargetType="UserControl">
+		<!--<Setter Property="Background" Value="{DynamicResource BackgroundKey}"/>-->
+	</Style>
+	
+	<Style TargetType="ListView">
+		<!--<Setter Property="Background" Value="{DynamicResource BackgroundKey}"/>-->
+	</Style>
+	
+	
+</ResourceDictionary>

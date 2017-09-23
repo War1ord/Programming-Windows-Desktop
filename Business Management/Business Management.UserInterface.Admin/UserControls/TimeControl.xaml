@@ -1,0 +1,32 @@
+﻿<UserControl x:Class="Business_Management.UserInterface.Admin.UserControls.TimeControl"
+			 xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+			 xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+			 xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+			 xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+			 xmlns:local="clr-namespace:Business_Management.UserInterface.Admin.UserControls"
+			 xmlns:s="clr-namespace:System;assembly=System"
+			 x:Name="UserControl"
+			 mc:Ignorable="d" 
+			 d:DesignWidth="100"
+			 d:DesignHeight="20" 
+			 Background="White"
+			 >
+	<Grid VerticalAlignment="Center" ToolTip="Enter Time in the format Days.Hours:Minutes:Seconds">
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition Width="0.2*"/>
+			<ColumnDefinition Width="0.05*"/>
+			<ColumnDefinition Width="0.2*"/>
+			<ColumnDefinition Width="0.05*"/>
+			<ColumnDefinition Width="0.2*"/>
+			<ColumnDefinition Width="0.05*"/>
+			<ColumnDefinition Width="0.2*"/>
+		</Grid.ColumnDefinitions>
+		<TextBox Text="{Binding Path=Days, ElementName=UserControl, UpdateSourceTrigger=PropertyChanged, Mode=Default}" VerticalAlignment="Center" x:Name="day" Grid.Column="0" BorderThickness="0,0,0,1" ToolTip="Days" PreviewKeyDown="Down"/>
+		<TextBlock Text="." VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="1" />
+		<TextBox Text="{Binding Path=Hours, ElementName=UserControl, UpdateSourceTrigger=PropertyChanged, Mode=Default}" VerticalAlignment="Center" x:Name="hour" Grid.Column="2" BorderThickness="0,0,0,1" ToolTip="Hours" PreviewKeyDown="Down"/>
+		<TextBlock Text=":" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="3" />
+		<TextBox Text="{Binding Path=Minutes, ElementName=UserControl, UpdateSourceTrigger=PropertyChanged, Mode=Default}" VerticalAlignment="Center" x:Name="minute" Grid.Column="4" BorderThickness="0,0,0,1" ToolTip="Minutes" PreviewKeyDown="Down"/>
+		<TextBlock Text=":" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="5" />
+		<TextBox Text="{Binding Path=Seconds, ElementName=UserControl, UpdateSourceTrigger=PropertyChanged, Mode=Default}" VerticalAlignment="Center" x:Name="second" Grid.Column="7" BorderThickness="0,0,0,1" ToolTip="Seconds" PreviewKeyDown="Down"/>
+	</Grid>
+</UserControl>

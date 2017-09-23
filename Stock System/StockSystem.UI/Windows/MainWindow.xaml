@@ -1,0 +1,46 @@
+﻿<Window x:Class="Framework.Wpf.Mvvm.UI.Windows.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        xmlns:vm="clr-namespace:Framework.Wpf.Mvvm.UI.ViewModels"
+        xmlns:uc="clr-namespace:Framework.Wpf.Mvvm.UI.UserControls.Search"
+        d:DataContext="{d:DesignInstance vm:MainViewModel}"
+        Title="Stock System"
+        Width="1024"
+        Height="768" 
+		>
+	<Grid>
+		<Grid.RowDefinitions>
+			<RowDefinition Style="{StaticResource MenuRow}" />
+			<RowDefinition Style="{StaticResource ContentRow}" />
+			<RowDefinition Style="{StaticResource FooterRow}"/>
+		</Grid.RowDefinitions>
+		<Menu IsMainMenu="True" Grid.Row="0">
+			<MenuItem Header="_File">
+				<MenuItem Header="E_xit" Click="CloseApplication"/>
+			</MenuItem>
+			<MenuItem Header="_Add">
+				<MenuItem Header="Area _Type" Command="{Binding AddAreaTypeCommand}"/>
+				<MenuItem Header="_Area" Command="{Binding AddAreaCommand}"/>
+				<Separator />
+				<MenuItem Header="Stock Type _Group" Command="{Binding AddStockTypeGroupCommand}"/>
+				<MenuItem Header="Stock _Type" Command="{Binding AddStockTypeCommand}"/>
+				<Separator />
+				<MenuItem Header="Stock _Item" Command="{Binding AddStockItemCommand}"/>
+			</MenuItem>
+			<MenuItem Header="_Edit">
+				<MenuItem Header="Area _Type" Command="{Binding EditAreaTypeCommand}"/>
+				<MenuItem Header="_Area" Command="{Binding EditAreaCommand}"/>
+				<Separator />
+				<MenuItem Header="Stock Type _Group" Command="{Binding EditStockTypeGroupCommand}"/>
+				<MenuItem Header="Stock _Type" Command="{Binding EditStockTypeCommand}"/>
+				<Separator />
+				<MenuItem Header="Stock _Item" Command="{Binding EditStockItemCommand}"/>
+			</MenuItem>
+		</Menu>
+		<uc:SearchUserControl DataContext="{Binding SearchViewModel}" Style="{StaticResource Content}" Grid.Row="1"/>
+		<TextBlock Text="{Binding FooterDescription}" Style="{StaticResource Footer}" Grid.Row="2"/>
+	</Grid>
+</Window>

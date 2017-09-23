@@ -1,0 +1,99 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toggl To Axosoft Integration", "Toggl To Axosoft Integration\Toggl To Axosoft Integration.csproj", "{FF9B4CEA-A8F4-467F-A19B-44D7BEA80885}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiTests", "ApiTests\ApiTests.csproj", "{07369D3A-4BC3-4114-B270-B23CADD4C0E2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{CDFD0B61-D8E9-4054-B977-1591DB863869}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation.txt = Documentation.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{0683F341-96E6-4485-BFF9-89D4506832D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Toggl", "Toggl", "{A0974F0C-04A6-4FC8-9DA4-1EE225682907}"
+	ProjectSection(SolutionItems) = preProject
+		api's\toggl_api_docs-master\README.md = api's\toggl_api_docs-master\README.md
+		api's\toggl_api_docs-master\reports.md = api's\toggl_api_docs-master\reports.md
+		api's\toggl_api_docs-master\Test.txt = api's\toggl_api_docs-master\Test.txt
+		api's\toggl_api_docs-master\toggl_api.md = api's\toggl_api_docs-master\toggl_api.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Reports", "Reports", "{142EB8DB-BDD9-4CF4-B9F9-0C0D6B887754}"
+	ProjectSection(SolutionItems) = preProject
+		api's\toggl_api_docs-master\reports\detailed.md = api's\toggl_api_docs-master\reports\detailed.md
+		api's\toggl_api_docs-master\reports\project.md = api's\toggl_api_docs-master\reports\project.md
+		api's\toggl_api_docs-master\reports\project_dashboard_schema.json = api's\toggl_api_docs-master\reports\project_dashboard_schema.json
+		api's\toggl_api_docs-master\reports\summary.md = api's\toggl_api_docs-master\reports\summary.md
+		api's\toggl_api_docs-master\reports\weekly.md = api's\toggl_api_docs-master\reports\weekly.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapters", "Chapters", "{C8398508-72C4-42EF-9AE1-5315C2ECA205}"
+	ProjectSection(SolutionItems) = preProject
+		api's\toggl_api_docs-master\chapters\authentication.md = api's\toggl_api_docs-master\chapters\authentication.md
+		api's\toggl_api_docs-master\chapters\clients.md = api's\toggl_api_docs-master\chapters\clients.md
+		api's\toggl_api_docs-master\chapters\dashboard.md = api's\toggl_api_docs-master\chapters\dashboard.md
+		api's\toggl_api_docs-master\chapters\project_users.md = api's\toggl_api_docs-master\chapters\project_users.md
+		api's\toggl_api_docs-master\chapters\projects.md = api's\toggl_api_docs-master\chapters\projects.md
+		api's\toggl_api_docs-master\chapters\tags.md = api's\toggl_api_docs-master\chapters\tags.md
+		api's\toggl_api_docs-master\chapters\tasks.md = api's\toggl_api_docs-master\chapters\tasks.md
+		api's\toggl_api_docs-master\chapters\time_entries.md = api's\toggl_api_docs-master\chapters\time_entries.md
+		api's\toggl_api_docs-master\chapters\users.md = api's\toggl_api_docs-master\chapters\users.md
+		api's\toggl_api_docs-master\chapters\workspace_users.md = api's\toggl_api_docs-master\chapters\workspace_users.md
+		api's\toggl_api_docs-master\chapters\workspaces.md = api's\toggl_api_docs-master\chapters\workspaces.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Axosoft", "Axosoft", "{FF691A75-C7A6-40F2-BD46-877BF3A83F37}"
+	ProjectSection(SolutionItems) = preProject
+		api's\Axosoft\Axosoft Api Documentation.txt = api's\Axosoft\Axosoft Api Documentation.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF9B4CEA-A8F4-467F-A19B-44D7BEA80885}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{FF9B4CEA-A8F4-467F-A19B-44D7BEA80885}.Debug|Any CPU.Build.0 = Debug|x86
+		{FF9B4CEA-A8F4-467F-A19B-44D7BEA80885}.Debug|x64.ActiveCfg = Debug|x64
+		{FF9B4CEA-A8F4-467F-A19B-44D7BEA80885}.Debug|x64.Build.0 = Debug|x64
+		{FF9B4CEA-A8F4-467F-A19B-44D7BEA80885}.Debug|x86.ActiveCfg = Debug|x86
+		{FF9B4CEA-A8F4-467F-A19B-44D7BEA80885}.Debug|x86.Build.0 = Debug|x86
+		{FF9B4CEA-A8F4-467F-A19B-44D7BEA80885}.Release|Any CPU.ActiveCfg = Release|x86
+		{FF9B4CEA-A8F4-467F-A19B-44D7BEA80885}.Release|Any CPU.Build.0 = Release|x86
+		{FF9B4CEA-A8F4-467F-A19B-44D7BEA80885}.Release|x64.ActiveCfg = Release|x64
+		{FF9B4CEA-A8F4-467F-A19B-44D7BEA80885}.Release|x64.Build.0 = Release|x64
+		{FF9B4CEA-A8F4-467F-A19B-44D7BEA80885}.Release|x86.ActiveCfg = Release|x86
+		{FF9B4CEA-A8F4-467F-A19B-44D7BEA80885}.Release|x86.Build.0 = Release|x86
+		{07369D3A-4BC3-4114-B270-B23CADD4C0E2}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{07369D3A-4BC3-4114-B270-B23CADD4C0E2}.Debug|Any CPU.Build.0 = Debug|x86
+		{07369D3A-4BC3-4114-B270-B23CADD4C0E2}.Debug|x64.ActiveCfg = Debug|x64
+		{07369D3A-4BC3-4114-B270-B23CADD4C0E2}.Debug|x64.Build.0 = Debug|x64
+		{07369D3A-4BC3-4114-B270-B23CADD4C0E2}.Debug|x86.ActiveCfg = Debug|x86
+		{07369D3A-4BC3-4114-B270-B23CADD4C0E2}.Debug|x86.Build.0 = Debug|x86
+		{07369D3A-4BC3-4114-B270-B23CADD4C0E2}.Release|Any CPU.ActiveCfg = Release|x86
+		{07369D3A-4BC3-4114-B270-B23CADD4C0E2}.Release|Any CPU.Build.0 = Release|x86
+		{07369D3A-4BC3-4114-B270-B23CADD4C0E2}.Release|x64.ActiveCfg = Release|x64
+		{07369D3A-4BC3-4114-B270-B23CADD4C0E2}.Release|x64.Build.0 = Release|x64
+		{07369D3A-4BC3-4114-B270-B23CADD4C0E2}.Release|x86.ActiveCfg = Release|x86
+		{07369D3A-4BC3-4114-B270-B23CADD4C0E2}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0683F341-96E6-4485-BFF9-89D4506832D9} = {CDFD0B61-D8E9-4054-B977-1591DB863869}
+		{A0974F0C-04A6-4FC8-9DA4-1EE225682907} = {0683F341-96E6-4485-BFF9-89D4506832D9}
+		{142EB8DB-BDD9-4CF4-B9F9-0C0D6B887754} = {A0974F0C-04A6-4FC8-9DA4-1EE225682907}
+		{C8398508-72C4-42EF-9AE1-5315C2ECA205} = {A0974F0C-04A6-4FC8-9DA4-1EE225682907}
+		{FF691A75-C7A6-40F2-BD46-877BF3A83F37} = {0683F341-96E6-4485-BFF9-89D4506832D9}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,1 @@
+an application that when run with a folder path gives you a choice of different outputs to save the files and folders info too. 

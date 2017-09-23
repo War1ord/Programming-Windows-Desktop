@@ -1,0 +1,5 @@
+an application that tracks your work done, 
+this might be used as a personal work tracking application 
+as there might be some data specific to a piece of work that might not be needed to track on the level the piece of work is.
+This should be regared as seperate from the work logs as work logs is time spent on a piece of work. 
+This should be maybe regared as a more detailed break down of a work log but not a direct link to a specific work log. 

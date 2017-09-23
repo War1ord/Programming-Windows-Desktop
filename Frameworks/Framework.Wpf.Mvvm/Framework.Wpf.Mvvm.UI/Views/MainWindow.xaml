@@ -1,0 +1,75 @@
+﻿<Window x:Class="Framework.Wpf.Mvvm.UI.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        xmlns:viewmodel="clr-namespace:Framework.Wpf.Mvvm.UI.ViewModels"
+        xmlns:uc="clr-namespace:Framework.Wpf.Mvvm.UI.Controls.Content"
+        d:DataContext="{d:DesignInstance viewmodel:MainViewModel}"
+        Title="Wpf Mvvm Framework"
+		Width="1024"
+		Height="768">
+	<Grid>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="80"></RowDefinition>
+			<RowDefinition Height="60"></RowDefinition>
+			<RowDefinition Height="40"></RowDefinition>
+			<RowDefinition Height="40"></RowDefinition>
+			<RowDefinition ></RowDefinition>
+			<RowDefinition Height="40"></RowDefinition>
+			<RowDefinition Height="60"></RowDefinition>
+			<RowDefinition Height="60"></RowDefinition>
+			<RowDefinition Height="80"></RowDefinition>
+		</Grid.RowDefinitions>
+		<uc:HeaderView Grid.Row="0" DataContext="{Binding HeaderView}"/>
+		<uc:NavigationView Grid.Row="1" DataContext="{Binding NavigationView}" />
+		<uc:BeforeMainView Grid.Row="2" DataContext="{Binding BeforeMainView}" />
+		<uc:FeaturedView Grid.Row="3" DataContext="{Binding FeaturedView}" />
+		<Grid Grid.Row="4" >
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="100"></ColumnDefinition>
+				<ColumnDefinition></ColumnDefinition>
+				<ColumnDefinition Width="100"></ColumnDefinition>
+			</Grid.ColumnDefinitions>
+			<uc:AsideFirstView Grid.Column="0" DataContext="{Binding AsideFirstView}"/>
+			<Grid Grid.Column="1">
+				<Grid.RowDefinitions>
+					<RowDefinition Height="40"></RowDefinition>
+					<RowDefinition Height="40"></RowDefinition>
+					<RowDefinition></RowDefinition>
+					<RowDefinition Height="40"></RowDefinition>
+				</Grid.RowDefinitions>
+				<uc:MessageView Grid.Row="0" DataContext="{Binding MessageView}"/>
+				<uc:BeforeContentView Grid.Row="1" DataContext="{Binding BeforeContentView}"/>
+				<uc:ContentView Grid.Row="2" DataContext="{Binding ContentView}"/>
+				<uc:AfterContentView Grid.Row="3" DataContext="{Binding AfterContentView}"/>
+			</Grid>
+			<uc:AsideSecondView Grid.Column="2" DataContext="{Binding AsideSecondView}"/>
+		</Grid>
+		<uc:AfterMainView Grid.Row="5" DataContext="{Binding AfterMainView}" />
+		<Grid Grid.Row="6">
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition></ColumnDefinition>
+				<ColumnDefinition></ColumnDefinition>
+				<ColumnDefinition></ColumnDefinition>
+			</Grid.ColumnDefinitions>
+			<uc:TripelFirstView Grid.Column="0" DataContext="{Binding TripelFirstView}" />
+			<uc:TripelSecondView Grid.Column="1" DataContext="{Binding TripelSecondView}" />
+			<uc:TripelThirdView Grid.Column="2" DataContext="{Binding TripelThirdView}" />
+		</Grid>
+		<Grid Grid.Row="7">
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition></ColumnDefinition>
+				<ColumnDefinition></ColumnDefinition>
+				<ColumnDefinition></ColumnDefinition>
+				<ColumnDefinition></ColumnDefinition>
+			</Grid.ColumnDefinitions>
+			<uc:QuadFirstView Grid.Column="0" DataContext="{Binding QuadFirstView}" />
+			<uc:QuadSecondView Grid.Column="1" DataContext="{Binding QuadSecondView}" />
+			<uc:QuadThirdView Grid.Column="2" DataContext="{Binding QuadThirdView}" />
+			<uc:QuadFourthView Grid.Column="3" DataContext="{Binding QuadFourthView}" />
+		</Grid>
+		<uc:FooterView Grid.Row="8" DataContext="{Binding FooterView}" />
+	</Grid>
+</Window>

@@ -1,0 +1,30 @@
+﻿<Window x:Class="Folders_Link.Views.MainWindow"
+		xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" 
+        WindowStartupLocation="CenterScreen"
+        Height="444.889"
+        Width="531.033">
+	<StackPanel>
+		<TextBlock Text="This application is intended to be used where you need to create a folder link to another folder because you cannot change or move the path or the application." Margin="5 10 5 0" Height="68" TextWrapping="Wrap"/>
+		<TextBlock Text="Select the link folder, (Source folder)" Margin="5 10 5 0"/>
+		<StackPanel Orientation="Horizontal">
+			<TextBox Text="{Binding LinkFolder, UpdateSourceTrigger=PropertyChanged}" Margin="5 0 5 0" MinWidth="100" Width="340"/>
+			<TextBlock Text="\" />
+			<TextBox Text="{Binding LinkFolderSymbol, UpdateSourceTrigger=PropertyChanged}" Margin="5 0 5 0" MinWidth="100" Width="150"/>
+		</StackPanel>
+		<Button Content="Browse" Command="{Binding BrowseLinkFolderCommand}" Margin="5 0 5 5"/>
+
+		<TextBlock Text="Select the target folder" Margin="5 10 5 0"/>
+		<TextBox Text="{Binding TargetFolder, UpdateSourceTrigger=PropertyChanged}" Margin="5 0 5 0"/>
+		<Button Content="Browse" Command="{Binding BrowseTargetFolderCommand}" Margin="5 0 5 5"/>
+
+		<TextBlock Text="Click to create the link folder" Margin="5 10 5 0"/>
+		<Button Content="Create" Command="{Binding CreateCommand}" Margin="5 0 5 0"/>
+
+		<TextBox Text="{Binding ReturnText}" Margin="10" Height="106" TextWrapping="Wrap" />
+
+	</StackPanel>
+</Window>

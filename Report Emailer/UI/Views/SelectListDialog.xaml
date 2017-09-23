@@ -1,0 +1,18 @@
+﻿<Window x:Class="UI.Views.SelectListDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        SizeToContent="WidthAndHeight"
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen" 
+        >
+    <StackPanel>
+        <ListBox Name="List" ItemsSource="{Binding }" 
+                 DisplayMemberPath="Value" SelectedValuePath="Key" 
+                 ScrollViewer.VerticalScrollBarVisibility="Auto"
+                 ScrollViewer.CanContentScroll="True"
+                 />
+        <Button Content="_Ok" IsDefault="True" 
+                Click="OkButton_OnClick" />
+        <Button Content="_Cancel" IsCancel="True" />
+    </StackPanel>
+</Window>

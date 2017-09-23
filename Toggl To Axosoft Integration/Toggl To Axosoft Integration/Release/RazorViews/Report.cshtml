@@ -1,0 +1,40 @@
+﻿@using System.Linq
+@model Toggl_To_Axosoft_Integration.ViewModels.MainViewModel
+<div>
+    @foreach (var e in Model.Entries)
+    {
+        <div>
+            <h2>Project : @e.Project</h2>
+            @foreach (var t in e.Tickets)
+            {
+                <table>
+                    <tr>
+                        <td>&nbsp;</td>
+                        @foreach (var column in Model.Columns.Columns)
+                        {
+                            <td>@column.Header</td>
+                        }
+                    </tr>
+                    <tr>
+                        <td style="display: inline; width: 120px;">Ticket no #@t.Ticket</td>
+                        @foreach (var column in Model.Columns.Columns)
+                        {
+                            var date = column.AsDate();
+                            var entry = t.Dates.Where(i => i.Date == date).Select(i => i).FirstOrDefault();
+                            if (entry != null)
+                            {
+                                <td style="display: inline; border: black solid 1px; margin-right: 2px;">
+                                    @entry.Duration.TotalHours.ToString("F")
+                                </td>
+                            }
+                            else
+                            {
+                                <td>&nbsp;</td>
+                            }
+                        }
+                    </tr>
+                </table>
+            }
+        </div>
+    }
+</div>

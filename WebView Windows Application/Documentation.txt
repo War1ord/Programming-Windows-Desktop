@@ -1,0 +1,139 @@
+/* a windows application that gives you a WebView of sites like chrome does with the desktop shortcut */
+
+-- find out how to get a applications installed full path.
+
+http://stackoverflow.com/questions/18023379/creating-a-file-shortcut-lnk
+---- to create a shortcut --  http://stackoverflow.com/questions/1501608/how-do-you-create-an-application-shortcut-lnk-file-in-c-sharp-with-command-li/1501727#1501727 ----------------
+You'll need to add a COM reference to Windows Scripting Host. AFAIK, there is no native .net way to do this.
+This sample will create a shortcut on the desktop. It will launch the FTP app, using the XML file set as a command line argument. Just change the values to what you need.
+-------------------------------------------
+WshShellClass wsh = new WshShellClass();
+IWshRuntimeLibrary.IWshShortcut shortcut = wsh.CreateShortcut(Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "\\shorcut.lnk") as IWshRuntimeLibrary.IWshShortcut;
+shortcut.Arguments = "c:\\app\\settings1.xml";
+shortcut.TargetPath = "c:\\app\\myftp.exe";
+// not sure about what this is for
+shortcut.WindowStyle = 1; 
+shortcut.Description = "my shortcut description";
+shortcut.WorkingDirectory = "c:\\app";
+shortcut.IconLocation = "specify icon location";
+shortcut.Save();
+-------------------------------------------
+With this code, the target type is properly populated as application and will launch the app with settings1.xml as a command line argument. From your question, I think this is what you are trying to do. However, I don't think you can create a shortcut to, let's say just an xml file, and have the target type set as application.
+Add Reference > COM > Windows Script Host Object Model 
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+------  website ref. http://www.dotnetperls.com/webbrowser  -------------------------------------------------------------------------------------------------------------------------------------------------------
+C#: .NET: Windows
+
+.NET Array Collections File String Async Cast DataTable DateTime Dictionary Enum Exception For Foreach IEnumerable If IndexOf Lambda LINQ List Parse Path Process Property Regex Replace Sort Split StringBuilder Substring Switch Tuple
+
+WebBrowser provides an Internet Explorer control. In Windows Forms, you can add this control to display web pages. It has useful options you can add to create a kiosk-like browser with many limitations.
+WebBrowser control
+Start
+Start
+
+To begin, let's note some important parts of the WebBrowser control. The control offers the Navigate method, which gives you a lot of options for changing the location of the currently viewed page.
+
+You can also set the Url property to change the current page. As with other controls, the WebBrowser offers event handlers. These trigger when a page is being loaded and when the page is loaded.
+
+C# program that shows WebBrowser event handlers
+
+using System;
+using System.Windows.Forms;
+
+namespace WindowsFormsApplication1
+{
+    public partial class Form1 : Form
+    {
+	public Form1()
+	{
+	    InitializeComponent();
+	}
+
+	private void Form1_Load(object sender, EventArgs e)
+	{
+	    // When the form loads, open this web page.
+	    webBrowser1.Navigate("http://www.dotnetperls.com/");
+	}
+
+	private void webBrowser1_Navigating(object sender, WebBrowserNavigatingEventArgs e)
+	{
+	    // Set text while the page has not yet loaded.
+	    this.Text = "Navigating";
+	}
+
+	private void webBrowser1_DocumentCompleted(object sender,
+	    WebBrowserDocumentCompletedEventArgs e)
+	{
+	    // Better use the e parameter to get the url.
+	    // ... This makes the method more generic and reusable.
+	    this.Text = e.Url.ToString() + " loaded";
+	}
+    }
+}
+
+C# programming language
+
+Tip:You can add the event handlers in the above code example by double-clicking on the Form itself to create the Form1_Load handler.
+
+And:To create Navigating and DocumentCompleted, right-click on the WebBrowser, select properties, and then click on the lightning bolt.
+----------------------------------------------------------------------------------------
+ABC: letters
+
+When you execute this program, you will find that the text "Navigating" immediately appears in the title bar. This is because the Load event is triggered, and the Navigating event is then triggered.
+
+And:After the website finishes loading, you will see the title bar changes to indicate the site loaded. DocumentCompleted was triggered.
+----------------------------------------------------------------------------------------
+Context menus
+Cover logo
+
+By default, you will get the context menu for Internet Explorer when you right-click on the content area of the WebBrowser. If you are making a kiosk-like browser application, you probably won't want this. It could be confusing.
+
+Tip:To disable this option, please set the IsWebBrowserContextMenuEnabled property to False in the Properties window.
+
+Note:If you have the default browser context menu available, users can take unexpected actions, like navigate to any page.
+----------------------------------------------------------------------------------------
+Navigate
+Method call
+
+There are multiple overloaded versions of Navigate. You can pass it a Uri object, a string url, a bool that tells whether to load in a new window, and even a byte array indicating what data to POST to the server through HTTP.
+
+Navigating:With the Navigating event handler, you can execute code whenever a page has begun loading but has not finished.
+
+Note:For places with slow connections or slow remote applications, this event handler is useful for providing feedback.
+----------------------------------------------------------------------------------------
+DocumentCompleted
+Lightning bolt
+
+The DocumentCompleted event handler is probably the most useful event handler on the WebBrowser. The code you put in this handler is executed whenever the page you navigate to is finished loading.
+
+And:At this point, you can indicate completion through a change in the window's title or another user interface element.
+----------------------------------------------------------------------------------------
+Set Url
+Uri type
+
+Instead of calling the Navigate method, you can actually just set the Url property of the WebBrowser to change the current page shown. You will need to use the "new Uri()" constructor syntax when you assign this property.
+Uri
+Scroll bars
+Programming tip
+
+In some kinds of kiosk-style web browser applications, you may want to hide the scroll bars on the WebBrowser. If your user will not have a mouse, scroll bars will not be useful, after all.
+
+Tip:To hide the scroll bars, please set the ScrollBarEnabled property to False.
+----------------------------------------------------------------------------------------
+Url bar?
+Question
+
+The typical tutorial for the WebBrowser control shows you how to add a URL bar, and back and forward buttons. To implement these options, you could simply add a TextBox. And when enter is pressed, you could call the Navigate method.
+
+Tip:The back and forward buttons can simply call the webBrowser1.GoForward() and webBrowser1.GoBack() methods.
+Summary
+
+The WebBrowser control invokes an inline instance of the Internet Explorer web browsing engine. Useful for providing a kiosk-style web browsing function, this control gives you the ability to handle local and remote web pages with ease.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+

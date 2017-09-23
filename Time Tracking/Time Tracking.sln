@@ -1,0 +1,93 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+# SharpDevelop 5.1
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{BC436770-0926-43B8-84D5-040D9281638B}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00 - Documention", "00 - Documention", "{F124B57A-7774-4F6B-858F-3015AF2FEB34}"
+	ProjectSection(SolutionItems) = preProject
+		Credentials.txt = Credentials.txt
+		Documentation.txt = Documentation.txt
+		NJA_Project_TimeLogging.xlsx = NJA_Project_TimeLogging.xlsx
+		Time Tracking Project Plan.xmind = Time Tracking Project Plan.xmind
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Data", "01 - Data", "{66A18728-BF77-4964-93D2-BC21ADE32AA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeTracking.Data", "TimeTracking.Data\TimeTracking.Data.csproj", "{AFE5E088-40CA-475B-BD38-C937C1DB172A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeTracking.Models", "TimeTracking.Models\TimeTracking.Models.csproj", "{EF2F70D2-7EE2-4D74-BBE8-EFEAA0FEDAC2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Common", "02 - Common", "{FC08D755-AE82-45BD-98C4-CB41F303627A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeTracking.DataTypes", "TimeTracking.DataTypes\TimeTracking.DataTypes.csproj", "{5B05741A-CE11-475E-AA9A-2D673641D164}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - Business", "03 - Business", "{0C91E95F-69D5-452E-AAA4-FA377DEE5812}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeTracking.Excel", "TimeTracking.Excel\TimeTracking.Excel.csproj", "{D7833AE0-7DFC-4210-AC02-8FFB4B65349F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeTracking.Business", "TimeTracking.Business\TimeTracking.Business.csproj", "{EB0FCDB3-FB5A-424A-BEFF-43490DD9350F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 - UI", "04 - UI", "{F6736AE1-CF32-4AA1-BEDA-A31AB6E88758}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeTracking.UI", "TimeTracking.UI\TimeTracking.UI.csproj", "{4EE08873-7499-4904-B001-D931FA96C385}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05 - Tests", "05 - Tests", "{78C2A172-2EB8-4AF8-BF55-D54AC5876275}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeTracking.Business.Tests", "TimeTracking.Business.Tests\TimeTracking.Business.Tests.csproj", "{D935E87B-5906-4436-874E-78026E4AE3C7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AFE5E088-40CA-475B-BD38-C937C1DB172A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFE5E088-40CA-475B-BD38-C937C1DB172A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFE5E088-40CA-475B-BD38-C937C1DB172A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFE5E088-40CA-475B-BD38-C937C1DB172A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF2F70D2-7EE2-4D74-BBE8-EFEAA0FEDAC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF2F70D2-7EE2-4D74-BBE8-EFEAA0FEDAC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF2F70D2-7EE2-4D74-BBE8-EFEAA0FEDAC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF2F70D2-7EE2-4D74-BBE8-EFEAA0FEDAC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B05741A-CE11-475E-AA9A-2D673641D164}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B05741A-CE11-475E-AA9A-2D673641D164}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B05741A-CE11-475E-AA9A-2D673641D164}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B05741A-CE11-475E-AA9A-2D673641D164}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7833AE0-7DFC-4210-AC02-8FFB4B65349F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7833AE0-7DFC-4210-AC02-8FFB4B65349F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7833AE0-7DFC-4210-AC02-8FFB4B65349F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7833AE0-7DFC-4210-AC02-8FFB4B65349F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB0FCDB3-FB5A-424A-BEFF-43490DD9350F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB0FCDB3-FB5A-424A-BEFF-43490DD9350F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB0FCDB3-FB5A-424A-BEFF-43490DD9350F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB0FCDB3-FB5A-424A-BEFF-43490DD9350F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EE08873-7499-4904-B001-D931FA96C385}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EE08873-7499-4904-B001-D931FA96C385}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EE08873-7499-4904-B001-D931FA96C385}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EE08873-7499-4904-B001-D931FA96C385}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D935E87B-5906-4436-874E-78026E4AE3C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D935E87B-5906-4436-874E-78026E4AE3C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D935E87B-5906-4436-874E-78026E4AE3C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D935E87B-5906-4436-874E-78026E4AE3C7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AFE5E088-40CA-475B-BD38-C937C1DB172A} = {66A18728-BF77-4964-93D2-BC21ADE32AA0}
+		{EF2F70D2-7EE2-4D74-BBE8-EFEAA0FEDAC2} = {66A18728-BF77-4964-93D2-BC21ADE32AA0}
+		{5B05741A-CE11-475E-AA9A-2D673641D164} = {FC08D755-AE82-45BD-98C4-CB41F303627A}
+		{D7833AE0-7DFC-4210-AC02-8FFB4B65349F} = {0C91E95F-69D5-452E-AAA4-FA377DEE5812}
+		{EB0FCDB3-FB5A-424A-BEFF-43490DD9350F} = {0C91E95F-69D5-452E-AAA4-FA377DEE5812}
+		{4EE08873-7499-4904-B001-D931FA96C385} = {F6736AE1-CF32-4AA1-BEDA-A31AB6E88758}
+		{D935E87B-5906-4436-874E-78026E4AE3C7} = {78C2A172-2EB8-4AF8-BF55-D54AC5876275}
+	EndGlobalSection
+EndGlobal

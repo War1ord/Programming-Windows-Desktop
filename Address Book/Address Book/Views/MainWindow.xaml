@@ -1,0 +1,87 @@
+﻿<Window x:Class="Address_Book.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Addess Book" 
+        WindowState="Maximized"
+        DataContext="{Binding Source={StaticResource Locator}, Path=Main}"
+        >
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="386"/>
+        </Grid.ColumnDefinitions>
+        <ListBox Grid.Column="0" Margin="5" 
+                 ItemsSource="{Binding List}"
+                 SelectedItem="{Binding SelectedAddress}"
+                 DisplayMemberPath="Display"
+                 SelectionMode="Single" 
+                 />
+        <Grid Grid.Column="1" Margin="5" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="120"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="26"/>
+                <RowDefinition Height="26"/>
+                <RowDefinition Height="26"/>
+                <RowDefinition Height="26"/>
+                <RowDefinition Height="26"/>
+                <RowDefinition Height="26"/>
+                <RowDefinition Height="26"/>
+                <RowDefinition Height="26"/>
+                <RowDefinition Height="26"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Label Content="Sort By :" HorizontalAlignment="Right" VerticalAlignment="Center"/>
+            <Label Content="Address Type :" HorizontalAlignment="Right" Grid.Row="1" Grid.Column="0" VerticalAlignment="Center"/>
+            <Label Content="Province :" HorizontalAlignment="Right" Grid.Row="2" Grid.Column="0" VerticalAlignment="Center"/>
+            <Label Content="City :" HorizontalAlignment="Right" Grid.Row="3" Grid.Column="0" VerticalAlignment="Center"/>
+            <Label Content="Suburb :" HorizontalAlignment="Right" Grid.Row="4" Grid.Column="0" VerticalAlignment="Center"/>
+            <Label Content="Postal Code :" HorizontalAlignment="Right" Grid.Row="5" Grid.Column="0" VerticalAlignment="Center"/>
+            <Label Content="Street Name :" HorizontalAlignment="Right" Grid.Row="6" Grid.Column="0" VerticalAlignment="Center"/>
+            <Label Content="Street No :" HorizontalAlignment="Right" Grid.Row="7" Grid.Column="0" VerticalAlignment="Center"/>
+            <Label Content="Extra :" HorizontalAlignment="Right" Grid.Row="8" Grid.Column="0" VerticalAlignment="Center"/>
+            <ComboBox Grid.Row="0" Grid.Column="1" HorizontalAlignment="Left" Width="260" ItemsSource="{Binding Source={StaticResource Locator}, Path=EnumsLists.SortByList}" SelectedItem="{Binding SortBy, UpdateSourceTrigger=PropertyChanged}" />
+            <ComboBox Grid.Column="1" HorizontalAlignment="Left" Grid.Row="1" VerticalAlignment="Center" Width="260" ItemsSource="{Binding Source={StaticResource Locator}, Path=EnumsLists.Types}" SelectedItem="{Binding SelectedAddress.Type, UpdateSourceTrigger=PropertyChanged}"  />
+            <TextBox Grid.Column="1" HorizontalAlignment="Left" Grid.Row="2" VerticalAlignment="Center" Width="260" Text="{Binding SelectedAddress.Province, UpdateSourceTrigger=PropertyChanged}" />
+            <TextBox Grid.Column="1" HorizontalAlignment="Left" Grid.Row="3" VerticalAlignment="Center" Width="260" Text="{Binding SelectedAddress.City, UpdateSourceTrigger=PropertyChanged}" />
+            <TextBox Grid.Column="1" HorizontalAlignment="Left" Grid.Row="4" VerticalAlignment="Center" Width="260" Text="{Binding SelectedAddress.Suburb, UpdateSourceTrigger=PropertyChanged}" />
+            <TextBox Grid.Column="1" HorizontalAlignment="Left" Grid.Row="5" VerticalAlignment="Center" Width="260" Text="{Binding SelectedAddress.PostalCode, UpdateSourceTrigger=PropertyChanged}" />
+            <TextBox Grid.Column="1" HorizontalAlignment="Left" Grid.Row="6" VerticalAlignment="Center" Width="260" Text="{Binding SelectedAddress.StreetName, UpdateSourceTrigger=PropertyChanged}" />
+            <TextBox Grid.Column="1" HorizontalAlignment="Left" Grid.Row="7" VerticalAlignment="Center" Width="260" Text="{Binding SelectedAddress.StreetNumber, UpdateSourceTrigger=PropertyChanged}" />
+            <TextBox Grid.Column="1" HorizontalAlignment="Left" Grid.Row="8" VerticalAlignment="Center" Width="260" Text="{Binding SelectedAddress.Extra, UpdateSourceTrigger=PropertyChanged}" />
+            <Grid x:Name="CommandGrid" Grid.Row="9" Grid.Column="0" Grid.ColumnSpan="2">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition Height="26"/>
+                    <RowDefinition Height="26"/>
+                    <RowDefinition Height="26"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <ListBox Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" 
+                         ItemsSource="{Binding MessageList}" 
+                         DisplayMemberPath="Display"
+                         SelectionMode="Single" 
+                         ScrollViewer.VerticalScrollBarVisibility="Auto" 
+                         ScrollViewer.HorizontalScrollBarVisibility="Disabled" 
+                         VerticalContentAlignment="Top" 
+                         MaxWidth="{Binding Width, ElementName=CommandGrid}" 
+                         />
+                <Button Content="Add" Grid.Row="1" Grid.Column="0" Grid.RowSpan="1" Grid.ColumnSpan="1" Command="{Binding AddCommand}" />
+                <Button Content="Duplicate" Grid.Row="1" Grid.Column="1" Grid.RowSpan="1" Grid.ColumnSpan="1" Command="{Binding DuplicateCommand}"/>
+                <Button Content="Save" Grid.Row="1" Grid.Column="2" Grid.RowSpan="1" Grid.ColumnSpan="1" Command="{Binding SaveCommand}"/>
+                <Button Content="Delete" Grid.Row="1" Grid.Column="3" Grid.RowSpan="1" Grid.ColumnSpan="1" Command="{Binding DeleteCommand}"/>
+                <Button Content="Export to Excel" Grid.Row="2" Grid.Column="0" Grid.RowSpan="1" Grid.ColumnSpan="2" Command="{Binding ExportToExcelCommand}"/>
+                <Button Content="Import from Excel" Grid.Row="2" Grid.Column="2" Grid.RowSpan="1" Grid.ColumnSpan="2" Command="{Binding ImportFromExcelCommand}"/>
+                <Button Content="Export to Xml" Grid.Row="3" Grid.Column="0" Grid.RowSpan="1" Grid.ColumnSpan="2" Command="{Binding ExportToXmlCommand}"/>
+                <Button Content="Import from Xml" Grid.Row="3" Grid.Column="2" Grid.RowSpan="1" Grid.ColumnSpan="2" Command="{Binding ImportFromXmlCommand}"/>
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>

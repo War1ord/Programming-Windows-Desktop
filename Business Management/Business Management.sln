@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business Management.Business", "Business Management.Business\Business Management.Business.csproj", "{42CEAF83-AF20-47FC-8F1B-0C2F1AC1E37C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business Management.Models", "Business Management.Models\Business Management.Models.csproj", "{A81B2017-8A22-4E1D-996E-17BAB4085F97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business Management.UserInterface", "Business Management.UserInterface\Business Management.UserInterface.csproj", "{813ADA05-827B-4630-93E3-195124338FC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business Management.UserInterface.Admin", "Business Management.UserInterface.Admin\Business Management.UserInterface.Admin.csproj", "{AF17A405-0174-4B64-919D-628F29BF1B16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business Management.Data", "Business Management.Data\Business Management.Data.csproj", "{8DF1B280-3511-4F88-91CB-CB4273055CC2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 Data", "1 Data", "{1A4DA6EF-F1B4-4FE5-B9A2-2EE7854E19A4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 Business", "2 Business", "{DFE0D05C-793B-4BB2-B89D-D23FFA5F1B87}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 UI", "3 UI", "{DF6DBF39-4D1B-4FF2-80FA-B1E5369410B8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 Tests", "4 Tests", "{01AA66C2-3FEC-42A4-9BA7-F7E069872141}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business Management.Tests", "Business Management.Tests\Business Management.Tests.csproj", "{1B25D348-F0D4-4A8A-BEEE-32728CA5A85D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 Setup", "5 Setup", "{1F9F771E-C943-467F-838D-10DE7CE7992E}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Business Management Admin Setup", "Business Management Admin Setup\Business Management Admin Setup.vdproj", "{A7EDAB04-DA28-4DB6-A8FF-0C2E6CBA4B86}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Business Management Setup", "Business Management Setup\Business Management Setup.vdproj", "{2BCF5685-BEEE-4006-9C66-D2988D9DD0FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{42CEAF83-AF20-47FC-8F1B-0C2F1AC1E37C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42CEAF83-AF20-47FC-8F1B-0C2F1AC1E37C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42CEAF83-AF20-47FC-8F1B-0C2F1AC1E37C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42CEAF83-AF20-47FC-8F1B-0C2F1AC1E37C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A81B2017-8A22-4E1D-996E-17BAB4085F97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A81B2017-8A22-4E1D-996E-17BAB4085F97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A81B2017-8A22-4E1D-996E-17BAB4085F97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A81B2017-8A22-4E1D-996E-17BAB4085F97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{813ADA05-827B-4630-93E3-195124338FC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{813ADA05-827B-4630-93E3-195124338FC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{813ADA05-827B-4630-93E3-195124338FC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{813ADA05-827B-4630-93E3-195124338FC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF17A405-0174-4B64-919D-628F29BF1B16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF17A405-0174-4B64-919D-628F29BF1B16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF17A405-0174-4B64-919D-628F29BF1B16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF17A405-0174-4B64-919D-628F29BF1B16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DF1B280-3511-4F88-91CB-CB4273055CC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DF1B280-3511-4F88-91CB-CB4273055CC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DF1B280-3511-4F88-91CB-CB4273055CC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DF1B280-3511-4F88-91CB-CB4273055CC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B25D348-F0D4-4A8A-BEEE-32728CA5A85D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B25D348-F0D4-4A8A-BEEE-32728CA5A85D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B25D348-F0D4-4A8A-BEEE-32728CA5A85D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B25D348-F0D4-4A8A-BEEE-32728CA5A85D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7EDAB04-DA28-4DB6-A8FF-0C2E6CBA4B86}.Debug|Any CPU.ActiveCfg = Debug
+		{A7EDAB04-DA28-4DB6-A8FF-0C2E6CBA4B86}.Release|Any CPU.ActiveCfg = Release
+		{2BCF5685-BEEE-4006-9C66-D2988D9DD0FA}.Debug|Any CPU.ActiveCfg = Debug
+		{2BCF5685-BEEE-4006-9C66-D2988D9DD0FA}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{42CEAF83-AF20-47FC-8F1B-0C2F1AC1E37C} = {DFE0D05C-793B-4BB2-B89D-D23FFA5F1B87}
+		{A81B2017-8A22-4E1D-996E-17BAB4085F97} = {1A4DA6EF-F1B4-4FE5-B9A2-2EE7854E19A4}
+		{813ADA05-827B-4630-93E3-195124338FC6} = {DF6DBF39-4D1B-4FF2-80FA-B1E5369410B8}
+		{AF17A405-0174-4B64-919D-628F29BF1B16} = {DF6DBF39-4D1B-4FF2-80FA-B1E5369410B8}
+		{8DF1B280-3511-4F88-91CB-CB4273055CC2} = {1A4DA6EF-F1B4-4FE5-B9A2-2EE7854E19A4}
+		{1B25D348-F0D4-4A8A-BEEE-32728CA5A85D} = {01AA66C2-3FEC-42A4-9BA7-F7E069872141}
+		{A7EDAB04-DA28-4DB6-A8FF-0C2E6CBA4B86} = {1F9F771E-C943-467F-838D-10DE7CE7992E}
+		{2BCF5685-BEEE-4006-9C66-D2988D9DD0FA} = {1F9F771E-C943-467F-838D-10DE7CE7992E}
+	EndGlobalSection
+EndGlobal

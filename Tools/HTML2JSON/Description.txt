@@ -1,0 +1,3 @@
+an application to convert html text or file to a json object structure, 
+maybe an option to generate a javascript function that builds the json object 
+and returns it. 

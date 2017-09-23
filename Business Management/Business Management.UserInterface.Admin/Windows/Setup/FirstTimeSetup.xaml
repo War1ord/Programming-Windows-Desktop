@@ -1,0 +1,44 @@
+﻿<Window x:Class="Business_Management.UserInterface.Admin.Windows.Setup.FirstTimeSetup"
+        x:Name="FirstTimeSetupWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:vm="clr-namespace:Business_Management.UserInterface.Admin.ViewModels.Setup"
+        xmlns:uc="clr-namespace:Business_Management.UserInterface.Admin.UserControls.FirstTimeSetup"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="Business Management - First Time Setup" 
+        Width="800" 
+        Height="500" 
+        d:DataContext="{d:DesignInstance vm:FirstTimeSetupViewModel}">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition Height="28px"/>
+        </Grid.RowDefinitions>
+        <TabControl Grid.Row="0">
+            <TabItem Header="Welcome">
+                <uc:Welcome DataContext="{Binding }" />
+            </TabItem>
+            <TabItem Header="User Roles">
+                <uc:UserRoles DataContext="{Binding UserRoles}" />
+            </TabItem>
+            <TabItem Header="Banks">
+                <uc:Banks DataContext="{Binding Banks}" />
+            </TabItem>
+            <TabItem Header="Product Types">
+                <uc:ProductTypes DataContext="{Binding ProductTypes}" />
+            </TabItem>
+            <TabItem Header="Service Types">
+                <uc:ServiceTypes DataContext="{Binding ServiceTypes}" />
+            </TabItem>
+            <TabItem Header="Service Intervals">
+                <uc:ServiceIntervals DataContext="{Binding ServiceIntervals}" />
+            </TabItem>
+        </TabControl>
+        <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" >
+            <Button Content="_Save" Command="{Binding SaveCommand}" CommandParameter="{Binding ElementName=FirstTimeSetupWindow}" />
+            <Button Content="_Cancel" Command="{Binding CancelCommand}" CommandParameter="{Binding ElementName=FirstTimeSetupWindow}"/>
+        </StackPanel>
+    </Grid>
+</Window>

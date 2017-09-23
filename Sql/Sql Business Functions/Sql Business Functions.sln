@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sql Business Functions.Business", "Sql Business Functions.Business\Sql Business Functions.Business.csproj", "{8B849B03-D904-4540-81C4-ABFF5C8C1B57}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{667D9E5D-BF96-4001-BFD3-B97E859BA63E}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation\documentation.txt = Documentation\documentation.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Planning", "Planning", "{90270458-1D9B-41AF-836C-8F4CF9ACAE9E}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation\Layout.ep = Documentation\Layout.ep
+		Documentation\planning.png = Documentation\planning.png
+		Documentation\planning.xmind = Documentation\planning.xmind
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Layout", "Layout", "{05DC2670-995C-46F6-8752-4DF37A7979D2}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation\Main Layout.png = Documentation\Main Layout.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{D24C7355-2C88-41C8-954F-51CBBD3CCDEC}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation\Business Models.png = Documentation\Business Models.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{3490FB0C-BA2D-42A6-A137-7C477A4DA162}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation\UI.png = Documentation\UI.png
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{D5FBCBF9-A543-4428-949D-733876EAF1ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B849B03-D904-4540-81C4-ABFF5C8C1B57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B849B03-D904-4540-81C4-ABFF5C8C1B57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B849B03-D904-4540-81C4-ABFF5C8C1B57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B849B03-D904-4540-81C4-ABFF5C8C1B57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5FBCBF9-A543-4428-949D-733876EAF1ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5FBCBF9-A543-4428-949D-733876EAF1ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5FBCBF9-A543-4428-949D-733876EAF1ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5FBCBF9-A543-4428-949D-733876EAF1ED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{90270458-1D9B-41AF-836C-8F4CF9ACAE9E} = {667D9E5D-BF96-4001-BFD3-B97E859BA63E}
+		{05DC2670-995C-46F6-8752-4DF37A7979D2} = {90270458-1D9B-41AF-836C-8F4CF9ACAE9E}
+		{D24C7355-2C88-41C8-954F-51CBBD3CCDEC} = {90270458-1D9B-41AF-836C-8F4CF9ACAE9E}
+		{3490FB0C-BA2D-42A6-A137-7C477A4DA162} = {90270458-1D9B-41AF-836C-8F4CF9ACAE9E}
+	EndGlobalSection
+EndGlobal

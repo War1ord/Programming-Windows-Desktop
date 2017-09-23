@@ -1,0 +1,40 @@
+﻿<Window x:Class="Recipes.MainViewRecipes"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+		xmlns:Views="clr-namespace:Recipes.Views"
+        Title="Recipes View" Height="584" Width="1075" 
+		WindowStartupLocation="CenterScreen" 
+		>
+	<!--WindowStyle="None"-->
+	<!--AllowsTransparency="True"-->
+	<!--Background="Transparent"-->
+	<Grid>
+		<!-- Title Bar -->
+		<Grid Background="AliceBlue">
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="Auto"/>
+				<ColumnDefinition Width="*"/>
+				<ColumnDefinition Width="Auto"/>
+				<ColumnDefinition Width="Auto"/>
+				<ColumnDefinition Width="Auto"/>
+			</Grid.ColumnDefinitions>
+			<!-- Replaced as Window Icon -->
+			<!--<Rectangle Fill="Gold" Width="16" Height="16" Grid.Column="0"/>-->
+			<!-- Title Text -->
+			<TextBlock MouseLeftButtonDown="OnDragMoveWindow" Grid.Column="1">Recipes</TextBlock>
+			<!-- Minimize Button -->
+			<Rectangle Fill="Yellow" Width="16" Height="16" Margin="1" HorizontalAlignment="Right"
+                       MouseLeftButtonUp="OnMinimizeWindow"
+                       Grid.Column="2"/>
+			<!-- Maximize Button -->
+			<Rectangle Fill="Blue" Width="16" Height="16" Margin="1" HorizontalAlignment="Right"
+                       MouseLeftButtonUp="OnMaximizeWindow"
+                       Grid.Column="3"/>
+			<!-- Close Button -->
+			<Rectangle Fill="Red" Width="16" Height="16" Margin="1" HorizontalAlignment="Right"
+                       MouseLeftButtonUp="OnCloseWindow"
+                       Grid.Column="4"/>
+		</Grid>
+		<Views:MainView DataContext="{StaticResource ResourceKey=RecipesViewModel}" Grid.RowSpan="2" Grid.Column="1" Grid.Row="1"/>
+	</Grid>
+</Window>

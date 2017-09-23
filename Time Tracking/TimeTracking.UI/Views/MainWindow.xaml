@@ -1,0 +1,77 @@
+﻿<Window
+	x:Class="TimeTracking.UI.Views.MainWindow" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:ignore="http://www.ignore.com"
+	mc:Ignorable="d ignore"
+	Height="321"
+	Width="550"
+	Title="Time Tracking"
+	SizeToContent="Height"
+	ResizeMode="CanMinimize"
+	Icon="/Time Tracking;component/Resources/TimeTrackingIcon.ico"
+	WindowStyle="SingleBorderWindow"
+	DataContext="{Binding Main, Source={StaticResource Locator}}"
+	>
+	<Window.Resources>
+		<ResourceDictionary>
+			<ResourceDictionary.MergedDictionaries>
+				<ResourceDictionary Source="../Skins/MainSkin.xaml" />
+			</ResourceDictionary.MergedDictionaries>
+		</ResourceDictionary>
+	</Window.Resources>
+	<Grid>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="21" />
+			<RowDefinition Height="28" />
+			<RowDefinition Height="140" />
+			<RowDefinition Height="28" />
+			<RowDefinition Height="28" />
+			<RowDefinition Height="20" />
+		</Grid.RowDefinitions>
+		<Menu Grid.Row="0">
+			<MenuItem Header="_Manage">
+				<MenuItem Command="{Binding ManageClientsOrProjectCommand}" Header="Manage Clients Or Projects" />
+			</MenuItem>
+			<MenuItem
+				Header="_View">
+				<MenuItem Command="{Binding ExportToFileCommand}" Header="_Export To File" />
+				<MenuItem Command="{Binding WorkItemsListCommand}" Header="_Work Items List" />
+			</MenuItem>
+		</Menu>
+		<StackPanel Grid.Row="1" Orientation="Horizontal">
+			<Label Content="Client \ Project" />
+			<ComboBox 
+				ItemsSource="{Binding ClientsOrProjectsList, Source={StaticResource Locator}}"
+				DisplayMemberPath="Name"
+				SelectedValue="{Binding Path=WorkItem.ClientOrProjectGuid}"
+				SelectedValuePath="Guid"
+				Width="430" />
+		</StackPanel>
+		<StackPanel Grid.Row="2">
+			<Label Content="Description" HorizontalAlignment="Center" />
+			<TextBox
+				Text="{Binding WorkItem.Description}"
+				TextWrapping="Wrap"
+				ScrollViewer.CanContentScroll="True"
+				UseLayoutRounding="False"
+				VerticalScrollBarVisibility="Auto"
+				SpellCheck.IsEnabled="True"
+				HorizontalScrollBarVisibility="Visible"
+				AcceptsTab="True"
+				AcceptsReturn="True"
+				Height="114" />
+		</StackPanel>
+		<StackPanel Grid.Row="3" Orientation="Horizontal">
+			<Label Content="Ref." />
+			<TextBox Text="{Binding WorkItem.Reference}" Width="227" />
+			<Label Content="Extra" />
+			<TextBox Text="{Binding WorkItem.ExtraReference}" Width="227" />
+		</StackPanel>
+		<Button Grid.Row="4"
+			Content="{Binding StartEndCommandText}"
+			Command="{Binding StartEndCommand}" />
+		<StatusBar Grid.Row="5">
+			<Label Content="{Binding StatusMessage}" />
+		</StatusBar>
+	</Grid>
+</Window>

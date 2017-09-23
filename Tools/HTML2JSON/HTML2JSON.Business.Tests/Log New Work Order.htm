@@ -1,0 +1,180 @@
+﻿<!DOCTYPE html>
+<html class=" js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients no-cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths" style="">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Log New Work Order</title>
+	<link href="Log%20New%20Work%20Order_files/bootstrap.css" rel="stylesheet">
+	<link href="Log%20New%20Work%20Order_files/site.css" rel="stylesheet">
+	<link href="Log%20New%20Work%20Order_files/custom.css" rel="stylesheet">
+
+	<script src="Log%20New%20Work%20Order_files/modernizr-2.js"></script>
+
+</head>
+<body>
+	<div class="navbar navbar-default navbar-fixed-top" id="navbar">
+		<div class="">
+			<div class="navbar-header">
+				<div style="padding-left: 4px">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" id="menu">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				<a class="navbar-brand pull-left" href="http://localhost:1118/WorkOrders">Request for service</a>
+			</div>
+			<div class="navbar-collapse collapse pull-left">
+				<ul class="nav navbar-nav">
+
+
+					<li><a href="http://localhost:1118/" class="">Home</a></li>
+					<li><a href="http://localhost:1118/WorkOrders" class="">Work Orders</a></li>
+					<li>
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Admin <b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li class="dropdown dropdown-submenu">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Business Entities</a>
+								<ul class="dropdown-menu">
+									<li><a href="http://localhost:1118/BusinessEntities" class="">Business Entities</a></li>
+									<li><a href="http://localhost:1118/IndustryAreas" class="">Industry Areas</a></li>
+									<li><a href="http://localhost:1118/IndustryLevels" class="">Industry Levels</a></li>
+								</ul>
+							</li>
+							<li class="dropdown dropdown-submenu">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Work Order</a>
+								<ul class="dropdown-menu">
+									<li><a href="http://localhost:1118/WorkOrderTypes" class="">Types</a></li>
+								</ul>
+							</li>
+							<li><a href="http://localhost:1118/Projects" class="">Projects</a></li>
+							<li><a href="http://localhost:1118/Categories" class="">Categories</a></li>
+							<li><a href="http://localhost:1118/HourlyRates" class="">Hourly Rates</a></li>
+							<li><a href="http://localhost:1118/Error/List" class="">Error Logs</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<div class="navbar-collapse collapse pull-right">
+				<ul class="nav navbar-nav">
+					<li><a class="pull-right " href="http://localhost:1118/Account">Welcome Charles</a></li>
+					<li><a class="pull-right" href="http://localhost:1118/Account/Logout">Logout</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="container body-content">
+
+
+		<header><h2>Log New Work Order</h2></header>
+		<form action="/WorkOrders/Create" method="post">
+			<input name="__RequestVerificationToken" value="4Gg-bjvQODdLhgcn-YozQr0A2xqfJO_SxJEcenaO8ey9Nn_rFOuwYQzMM47S_NgG3ZJIebHhqnHhQ2NKfAAaskLtrfKFyW08aAWCO8rkBDE1" type="hidden"><div class="validation-summary-valid" data-valmsg-summary="true">
+				<ul>
+					<li style="display:none"></li>
+				</ul>
+			</div>
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="row">
+						<div class="col-sm-4">
+							<label class="control-label " for="Item_ProjectId">Project</label>
+						</div>
+						<div class="col-sm-8">
+							<select id="Item_ProjectId" name="Item.ProjectId">
+								<option selected="selected" value="">Please select...</option>
+								<option value="35f8c99e-c47b-4254-8ba1-571c5123e56f">Create a Tv</option>
+							</select>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-4">
+							<label class="control-label " for="Item_WorkOrderTypeId">Type</label>
+						</div>
+						<div class="col-sm-8">
+							<select data-val="true" data-val-required="The Type field is required." id="Item_WorkOrderTypeId" name="Item.WorkOrderTypeId">
+								<option selected="selected" value="">Please select...</option>
+								<option value="1a7b62e1-0793-44bc-8985-b4a90cfdacd8">Bugs</option>
+								<option value="9a33c626-5d0e-455d-b0fe-adfaa0b614a4">New Requets</option>
+								<option value="ae44d7ba-0453-440e-a74e-45717675ce88">Testing</option>
+							</select>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-4">
+							<label class="control-label " for="Item_Priority">Priority</label>
+						</div>
+						<div class="col-sm-8">
+							<select data-val="true" data-val-required="The Priority field is required." id="Item_Priority" name="Item.Priority">
+								<option selected="selected" value="Low">Low</option>
+								<option value="Normal">Normal</option>
+								<option value="High">High</option>
+								<option value="Critical">Critical</option>
+							</select>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-4">
+							<label class="control-label " for="Item_WorkOrderReference">Reference</label>
+						</div>
+						<div class="col-sm-8">
+							<input class="width-4" id="Item_WorkOrderReference" name="Item.WorkOrderReference" type="text">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-4">
+							<label class="control-label " for="Item_Title">Title</label>
+						</div>
+						<div class="col-sm-8">
+							<input class="width-4" data-val="true" data-val-length="The field Title must be a string with a maximum length of 250." data-val-length-max="250" data-val-required="The Title field is required." id="Item_Title" name="Item.Title" type="text">
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+
+				</div>
+			</div>
+			<hr>
+			<div class="row">
+				<div class="col-sm-12 text-center">
+					<label class="control-label " for="Item_Description">Description</label>
+					<div class="row">
+						<textarea class="width-full height-4" cols="20" data-val="true" data-val-required="The Description field is required." id="Item_Description" name="Item.Description" rows="2"></textarea>
+					</div>
+				</div>
+			</div>
+			<div class="strip-bordered">
+				<a class="btn btn-default" href="http://localhost:1118/WorkOrders">Cancel</a>
+				<input value="Save" class="btn btn-primary" type="submit">
+			</div>
+		</form>
+		<script src="Log%20New%20Work%20Order_files/workordercreate-1.js"></script>
+
+		<hr>
+		<footer class="navbar navbar-default navbar-fixed-bottom">
+			<div style="padding: 10px" class="pull-left">
+				<span>© 2015 - Request For Service</span>
+				<span>&nbsp;<a href="http://localhost:1118/News" class="btn btn-xs btn-link ">News</a></span>
+			</div>
+			<div style="padding: 10px; padding-right: 15px;" class="hide pull-right" id="statusBar"></div>
+		</footer>
+	</div>
+	<script src="Log%20New%20Work%20Order_files/jquery-1.js"></script>
+
+	<script src="Log%20New%20Work%20Order_files/bootstrap.js"></script>
+	<script src="Log%20New%20Work%20Order_files/respond.js"></script>
+
+	<script src="Log%20New%20Work%20Order_files/requestforservice-1.js"></script>
+
+
+
+	<!-- Visual Studio Browser Link -->
+	<script type="application/json" id="__browserLink_initializationData">
+		{"appName":"Firefox","requestId":"9b3f8194f74c4505a12726330a6b7302"}
+	</script>
+	<script type="text/javascript" src="Log%20New%20Work%20Order_files/browserLink" async="async"></script>
+	<!-- End Browser Link -->
+
+
+</body>
+</html>

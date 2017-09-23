@@ -1,0 +1,14 @@
+This application is here to track your time worked on an part\piece of work
+- application (data) could be like excel worksheet file in current folder.
+- idea to maybe work directly on the excel file for a database or data store like.
+
+View or pages
+- logging view : to select client or project, enter description of work then having start and end buttons
+- summary view 
+- reporting view : 
+	> hours logged per month, per week, per client or project
+	> non RFS logged work
+	
+Planning : 
+- Business Class to read the xls files 
+- UI will have a list of files to select from and to add or even maybe to change the folder where this application stores its xls files.

@@ -1,0 +1,273 @@
+<?xml version="1.0"?>
+<Document xmlns="http://www.evolus.vn/Namespace/Pencil"><Properties/><Pages><Page><Properties><Property name="name">Main Window</Property><Property name="id">1460912457771_4427</Property><Property name="width">1018</Property><Property name="height">684</Property><Property name="dimBackground"/><Property name="transparentBackground">false</Property><Property name="backgroundColor">#66FF99FF</Property></Properties><Content>
+        <g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.Sketchy.GUI:winframe" id="57475a83ba564926beb160becb31b064" transform="matrix(1,0,0,1,21,17)">
+          <p:metadata>
+            <p:property name="box"><![CDATA[831,574]]></p:property>
+            <p:property name="withMinButton"><![CDATA[true]]></p:property>
+            <p:property name="withRestoreButton"><![CDATA[true]]></p:property>
+            <p:property name="withCloseButton"><![CDATA[true]]></p:property>
+            <p:property name="disabled"><![CDATA[false]]></p:property>
+            <p:property name="fillColor"><![CDATA[#FFFFFFFF]]></p:property>
+            <p:property name="strokeColor"><![CDATA[#000000FF]]></p:property>
+            <p:property name="strokeStyle"><![CDATA[1|]]></p:property>
+            <p:property name="textContent"><![CDATA[Work Tracker]]></p:property>
+            <p:property name="textFont"><![CDATA['Comic Sans MS'|Bold|normal|12px|none]]></p:property>
+            <p:property name="textColor"><![CDATA[#000000FF]]></p:property>
+            <p:property name="textAlign"><![CDATA[0,1]]></p:property>
+          </p:metadata>
+          <path style="fill: rgb(255, 255, 255); stroke: rgb(0, 0, 0); stroke-opacity: 1; stroke-width: 1; fill-opacity: 1;" p:name="body" id="c451f53723dc40d787d636d05c61894a" d="M 0 0 C 277 1 554 1 831 0 C 831 191 831 383 831 574 C 554 575 277 575 0 574 z"/>
+          <path style="fill: rgb(222, 222, 222); stroke: rgb(0, 0, 0); stroke-opacity: 1; stroke-width: 1; fill-opacity: 1;" p:name="menu" id="95c22ff6351c4ce280be1678e1a9d42d" d="M 0 0 C 277 1 554 1 831 0 C 831 9 831 19 831 28 C 554 27 277 27 0 28 z"/>
+          <path style="fill: white; stroke: rgb(0, 0, 0); stroke-opacity: 1; stroke-width: 1;" p:name="button" id="e01dec440db64ecf94d155a5b239d63c" d="M 807 4 C 814 4 820 4 827 4 C 827 11 827 17 827 24 C 820 24 814 24 807 24 z M 811 8 C 815 12 819 16 823 20 M 823 8 C 819 12 815 16 811 20 M 783 4 C 790 4 796 4 803 4 C 803 11 803 17 803 24 C 796 24 790 24 783 24 z M 788 9 C 791 9 795 9 798 9 C 798 12 798 16 798 19 C 795 19 791 19 788 19 z M 759 4 C 766 4 772 4 779 4 C 779 11 779 17 779 24 C 772 24 766 24 759 24 z M 764 19 C 767 19 771 19 774 19"/>
+          <foreignObject x="10" y="5" width="821" height="18" p:name="text" id="a3dbe989f1694941be6304abb8051cc5" style="font-family: 'Comic Sans MS'; font-size: 12px; font-weight: bold; font-style: normal; text-decoration: none; color: rgb(0, 0, 0); opacity: 1; text-align: left;"><div xmlns="http://www.w3.org/1999/xhtml">Work Tracker</div></foreignObject>
+        </g>
+        <g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.Sketchy.GUI:box" id="020af0ce14984aa5bf88998f81b152fc" transform="matrix(1,0,0,1,25,68)">
+          <p:metadata>
+            <p:property name="box"><![CDATA[339,24]]></p:property>
+            <p:property name="textPadding"><![CDATA[16.950000000000003,1.6]]></p:property>
+            <p:property name="fillColor"><![CDATA[#FFFFFFFF]]></p:property>
+            <p:property name="strokeColor"><![CDATA[#000000FF]]></p:property>
+            <p:property name="strokeStyle"><![CDATA[1|]]></p:property>
+            <p:property name="textContent"><![CDATA[]]></p:property>
+            <p:property name="textFont"><![CDATA['Comic Sans MS'|normal|normal|12px|none]]></p:property>
+            <p:property name="textColor"><![CDATA[#000000FF]]></p:property>
+            <p:property name="textAlign"><![CDATA[1,1]]></p:property>
+          </p:metadata>
+          <path style="stroke-linejoin: round; fill: rgb(255, 255, 255); fill-opacity: 1; stroke: rgb(0, 0, 0); stroke-opacity: 1; stroke-width: 1;" p:name="line1" id="b5931df2ddfe4a7d847e9d8883c347a6" transform="translate(0.5,0.5)" d="M 0 0 C 113 1 226 1 339 0 C 339 8 339 16 339 24 C 226 25 113 25 0 24 C 0 16 0 8 0 0 z"/>
+          <text p:name="text" id="b984bb1cba604351b3a8525985849f2f" style="font-family: 'Comic Sans MS'; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none; fill: rgb(0, 0, 0); fill-opacity: 1;" transform="translate(170,12)"/>
+        </g>
+        <g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.Common:PlainTextV2" p:sc="Label" id="ece6d8b4e6da4fc4acc23f9165baf11f" transform="matrix(1,0,0,1,31,84)">
+          <p:metadata>
+            <p:property name="disabled"><![CDATA[false]]></p:property>
+            <p:property name="width"><![CDATA[100,0]]></p:property>
+            <p:property name="fixedWidth"><![CDATA[false]]></p:property>
+            <p:property name="label"><![CDATA[Work item 1]]></p:property>
+            <p:property name="textColor"><![CDATA[#000000FF]]></p:property>
+            <p:property name="textFont"><![CDATA['Comic Sans MS'|normal|normal|12px|none]]></p:property>
+            <p:property name="textAlign"><![CDATA[0,0]]></p:property>
+          </p:metadata>
+          <rect x="0" y="0" style="fill: none; stroke: none; visibility: hidden; display: none;" p:name="bgRect" id="6e98cd14fb6f4617b6c992ac0015dc90" width="0" height="0"/>
+          <text xml:space="preserve" p:name="text" id="6cd921674ab54819b7d46b170f7b5e76" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: 'Comic Sans MS'; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;"><tspan x="0" y="0">Work item 1</tspan></text>
+        </g>
+
+
+        <g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.Sketchy.GUI:box" id="8faab7645b6f49e184043b01b65b5e62" transform="matrix(1,0,0,1,25,47)">
+          <p:metadata>
+            <p:property name="box"><![CDATA[816,17]]></p:property>
+            <p:property name="textPadding"><![CDATA[40.8,1.1333333333333333]]></p:property>
+            <p:property name="fillColor"><![CDATA[#FFFFFFFF]]></p:property>
+            <p:property name="strokeColor"><![CDATA[#000000FF]]></p:property>
+            <p:property name="strokeStyle"><![CDATA[1|]]></p:property>
+            <p:property name="textContent"><![CDATA[]]></p:property>
+            <p:property name="textFont"><![CDATA['Comic Sans MS'|normal|normal|12px|none]]></p:property>
+            <p:property name="textColor"><![CDATA[#000000FF]]></p:property>
+            <p:property name="textAlign"><![CDATA[1,1]]></p:property>
+          </p:metadata>
+          <path style="stroke-linejoin: round; fill: rgb(255, 255, 255); fill-opacity: 1; stroke: rgb(0, 0, 0); stroke-opacity: 1; stroke-width: 1;" p:name="line1" id="28fab67ec8804f0ba0eb7c1f929c25b5" transform="translate(0.5,0.5)" d="M 0 0 C 272 -1 544 -1 816 0 C 816 6 816 11 816 17 C 544 18 272 18 0 17 C 0 11 0 6 0 0 z"/>
+          <text p:name="text" id="15bdac4dbbb14105b640ffa59547c7b0" style="font-family: 'Comic Sans MS'; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none; fill: rgb(0, 0, 0); fill-opacity: 1;" transform="translate(408,9)"/>
+        </g>
+        <g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.Common:PlainTextV2" p:sc="Label" id="c22903a55b95475e8cc18bbef000a947" transform="matrix(1,0,0,1,421,59)">
+          <p:metadata>
+            <p:property name="disabled"><![CDATA[false]]></p:property>
+            <p:property name="width"><![CDATA[100,0]]></p:property>
+            <p:property name="fixedWidth"><![CDATA[false]]></p:property>
+            <p:property name="label"><![CDATA[Menu]]></p:property>
+            <p:property name="textColor"><![CDATA[#000000FF]]></p:property>
+            <p:property name="textFont"><![CDATA['Comic Sans MS'|normal|normal|12px|none]]></p:property>
+            <p:property name="textAlign"><![CDATA[0,0]]></p:property>
+          </p:metadata>
+          <rect x="0" y="0" style="fill: none; stroke: none; visibility: hidden; display: none;" p:name="bgRect" id="2921d5e302ca480db3729ccc370036ba" width="0" height="0"/>
+          <text xml:space="preserve" p:name="text" id="61ac227e30fa4aefb867455a6ab4bc4e" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: 'Comic Sans MS'; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;"><tspan x="0" y="0">Menu</tspan></text>
+        </g>
+        <g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.Sketchy.GUI:button" id="9e28b85f6765498cb2bacc9e0f1fae40" transform="matrix(1,0,0,1,81,48)">
+          <p:metadata>
+            <p:property name="box"><![CDATA[74,16]]></p:property>
+            <p:property name="disabled"><![CDATA[false]]></p:property>
+            <p:property name="default"><![CDATA[false]]></p:property>
+            <p:property name="fillColor"><![CDATA[#CCCCCCFF]]></p:property>
+            <p:property name="strokeColor"><![CDATA[#000000FF]]></p:property>
+            <p:property name="strokeStyle"><![CDATA[1|]]></p:property>
+            <p:property name="textContent"><![CDATA[Work Item]]></p:property>
+            <p:property name="textFont"><![CDATA['Comic Sans MS'|normal|normal|12px|none]]></p:property>
+            <p:property name="textColor"><![CDATA[#000000FF]]></p:property>
+            <p:property name="textAlign"><![CDATA[1,1]]></p:property>
+          </p:metadata>
+          <g p:name="rect" id="3ce8057176eb494abea48c3ee1214480" style="fill: rgb(204, 204, 204); fill-opacity: 1; stroke: rgb(0, 0, 0); stroke-opacity: 1; stroke-width: 1;">
+            <path style="stroke-linejoin: round;" p:name="line1" id="645454585da84429bc16c0ce8dccc0b0" d="M 0 0 C 25 0 49 0 74 0 C 74 5 74 11 74 16 C 49 16 25 16 0 16 C 0 11 0 5 0 0 z"/>
+          </g>
+          <text p:name="text" id="4037217c6b0a4d2eb134229827120a91" style="font-family: 'Comic Sans MS'; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none; fill: rgb(0, 0, 0); fill-opacity: 1;" transform="translate(5,13)">Work Item</text>
+        </g>
+        <g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.Sketchy.GUI:button" id="24161e9a33ff4b0b9759731492cdf79c" transform="matrix(1,0,0,1,30,48)">
+          <p:metadata>
+            <p:property name="box"><![CDATA[46,16]]></p:property>
+            <p:property name="disabled"><![CDATA[false]]></p:property>
+            <p:property name="default"><![CDATA[false]]></p:property>
+            <p:property name="fillColor"><![CDATA[#CCCCCCFF]]></p:property>
+            <p:property name="strokeColor"><![CDATA[#000000FF]]></p:property>
+            <p:property name="strokeStyle"><![CDATA[1|]]></p:property>
+            <p:property name="textContent"><![CDATA[File]]></p:property>
+            <p:property name="textFont"><![CDATA['Comic Sans MS'|normal|normal|12px|none]]></p:property>
+            <p:property name="textColor"><![CDATA[#000000FF]]></p:property>
+            <p:property name="textAlign"><![CDATA[1,1]]></p:property>
+          </p:metadata>
+          <g p:name="rect" id="1e74618a00424152b2b04d9c951881a0" style="fill: rgb(204, 204, 204); fill-opacity: 1; stroke: rgb(0, 0, 0); stroke-opacity: 1; stroke-width: 1;">
+            <path style="stroke-linejoin: round;" p:name="line1" id="61e749cf0abc4aaf9b2ddac94a7d76e5" d="M 0 0 C 15 0 31 0 46 0 C 46 5 46 11 46 16 C 31 16 15 16 0 16 C 0 11 0 5 0 0 z"/>
+          </g>
+          <text p:name="text" id="cadbb042ee5a405fa07205adc84364f6" style="font-family: 'Comic Sans MS'; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none; fill: rgb(0, 0, 0); fill-opacity: 1;" transform="translate(12,13)">File</text>
+        </g>
+        <g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.Sketchy.GUI:textbox" id="c15ffb55f0bd47c3af362d3831b20c41" transform="matrix(1,0,0,1,343,68)">
+          <p:metadata>
+            <p:property name="box"><![CDATA[20,24]]></p:property>
+            <p:property name="disabled"><![CDATA[false]]></p:property>
+            <p:property name="fillColor"><![CDATA[#FFFFFFFF]]></p:property>
+            <p:property name="strokeColor"><![CDATA[#000000FF]]></p:property>
+            <p:property name="strokeStyle"><![CDATA[1|]]></p:property>
+            <p:property name="textContent"><![CDATA[X]]></p:property>
+            <p:property name="textFont"><![CDATA['Comic Sans MS'|normal|normal|12px|none]]></p:property>
+            <p:property name="textColor"><![CDATA[#000000FF]]></p:property>
+            <p:property name="textAlign"><![CDATA[0,1]]></p:property>
+          </p:metadata>
+          <g p:name="rect" id="9569dcf40d184092adb2445ab17f8b35" transform="translate(0.5,0.5)" style="fill: rgb(255, 255, 255); fill-opacity: 1; stroke: rgb(0, 0, 0); stroke-opacity: 1; stroke-width: 1;">
+            <path style="stroke-linejoin: round; stroke: rgb(0, 0, 0); stroke-opacity: 1; stroke-width: 1;" p:name="line1" id="df297ee9b02242a981b844848e76a26e" transform="translate(0.5,0.5)" d="M 0 0 C 7 0 13 0 20 0 C 20 8 20 16 20 24 C 13 24 7 24 0 24 C 0 16 0 8 0 0 z"/>
+          </g>
+          <text p:name="text" id="85b30ccf14734b648afc0e7f57ad08ba" style="font-family: 'Comic Sans MS'; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none; fill: rgb(0, 0, 0); fill-opacity: 1;" transform="translate(6,17)">X</text>
+        </g>
+      <g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.Sketchy.GUI:box" id="bf9b2ef805a3498ca6188b05560fbea7" transform="matrix(1,0,0,1,367,69)"><p:metadata><p:property name="box"><![CDATA[473,500]]></p:property><p:property name="textPadding"><![CDATA[23.650000000000002,33.333333333333336]]></p:property><p:property name="fillColor"><![CDATA[#FFFFFFFF]]></p:property><p:property name="strokeColor"><![CDATA[#000000FF]]></p:property><p:property name="strokeStyle"><![CDATA[1|]]></p:property><p:property name="textContent"><![CDATA[]]></p:property><p:property name="textFont"><![CDATA['Comic Sans MS'|normal|normal|12px|none]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textAlign"><![CDATA[1,1]]></p:property></p:metadata>
+            <path style="stroke-linejoin: round; fill: rgb(255, 255, 255); fill-opacity: 1; stroke: rgb(0, 0, 0); stroke-opacity: 1; stroke-width: 1;" p:name="line1" id="a436784973db43cdb2ed10fb056ac59c" transform="translate(0.5,0.5)" d="M 0 0 C 158 0 315 0 473 0 C 473 167 473 333 473 500 C 315 500 158 500 0 500 C 1 333 1 167 0 0 z"/>
+            <text p:name="text" id="94caaae7e97b420f9eb678c9317ea911" style="font-family: 'Comic Sans MS'; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none; fill: rgb(0, 0, 0); fill-opacity: 1;" transform="translate(237,250)"/>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.Sketchy.GUI:box" id="062e1f0a8ee44d64ac30379621ede6f0" transform="matrix(1,0,0,1,25,99)">
+          <p:metadata>
+            <p:property name="box"><![CDATA[339,24]]></p:property>
+            <p:property name="textPadding"><![CDATA[16.950000000000003,1.6]]></p:property>
+            <p:property name="fillColor"><![CDATA[#FFFFFFFF]]></p:property>
+            <p:property name="strokeColor"><![CDATA[#000000FF]]></p:property>
+            <p:property name="strokeStyle"><![CDATA[1|]]></p:property>
+            <p:property name="textContent"><![CDATA[]]></p:property>
+            <p:property name="textFont"><![CDATA['Comic Sans MS'|normal|normal|12px|none]]></p:property>
+            <p:property name="textColor"><![CDATA[#000000FF]]></p:property>
+            <p:property name="textAlign"><![CDATA[1,1]]></p:property>
+          </p:metadata>
+          <path style="stroke-linejoin: round; fill: rgb(255, 255, 255); fill-opacity: 1; stroke: rgb(0, 0, 0); stroke-opacity: 1; stroke-width: 1;" p:name="line1" id="7caf1b961b2c40aba389b7db1ff8f8cc" transform="translate(0.5,0.5)" d="M 0 0 C 113 1 226 1 339 0 C 339 8 339 16 339 24 C 226 25 113 25 0 24 C 0 16 0 8 0 0 z"/>
+          <text p:name="text" id="4494af802f7d4d479c69056945e8711d" style="font-family: 'Comic Sans MS'; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none; fill: rgb(0, 0, 0); fill-opacity: 1;" transform="translate(170,12)"/>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.Sketchy.GUI:textbox" id="d714fe9ea83a439491b5fb0489f60f13" transform="matrix(1,0,0,1,343,98)">
+          <p:metadata>
+            <p:property name="box"><![CDATA[20,24]]></p:property>
+            <p:property name="disabled"><![CDATA[false]]></p:property>
+            <p:property name="fillColor"><![CDATA[#FFFFFFFF]]></p:property>
+            <p:property name="strokeColor"><![CDATA[#000000FF]]></p:property>
+            <p:property name="strokeStyle"><![CDATA[1|]]></p:property>
+            <p:property name="textContent"><![CDATA[X]]></p:property>
+            <p:property name="textFont"><![CDATA['Comic Sans MS'|normal|normal|12px|none]]></p:property>
+            <p:property name="textColor"><![CDATA[#000000FF]]></p:property>
+            <p:property name="textAlign"><![CDATA[0,1]]></p:property>
+          </p:metadata>
+          <g p:name="rect" id="347adf6e2bef49c0a72237cf68c2b490" transform="translate(0.5,0.5)" style="fill: rgb(255, 255, 255); fill-opacity: 1; stroke: rgb(0, 0, 0); stroke-opacity: 1; stroke-width: 1;">
+            <path style="stroke-linejoin: round; stroke: rgb(0, 0, 0); stroke-opacity: 1; stroke-width: 1;" p:name="line1" id="aa6c6b67ed6c403d8545b8221a15bbf4" transform="translate(0.5,0.5)" d="M 0 0 C 7 0 13 0 20 0 C 20 8 20 16 20 24 C 13 24 7 24 0 24 C 0 16 0 8 0 0 z"/>
+          </g>
+          <text p:name="text" id="7a20aa1e63954bc6b6f21a1082cbfbdf" style="font-family: 'Comic Sans MS'; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none; fill: rgb(0, 0, 0); fill-opacity: 1;" transform="translate(6,17)">X</text>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.Common:PlainTextV2" p:sc="Label" id="8e29b0b6a0094729a6f118726778e4fd" transform="matrix(1,0,0,1,31,116)">
+          <p:metadata>
+            <p:property name="disabled"><![CDATA[false]]></p:property>
+            <p:property name="width"><![CDATA[100,0]]></p:property>
+            <p:property name="fixedWidth"><![CDATA[false]]></p:property>
+            <p:property name="label"><![CDATA[Work item 2]]></p:property>
+            <p:property name="textColor"><![CDATA[#000000FF]]></p:property>
+            <p:property name="textFont"><![CDATA['Comic Sans MS'|normal|normal|12px|none]]></p:property>
+            <p:property name="textAlign"><![CDATA[0,0]]></p:property>
+          </p:metadata>
+          <rect x="0" y="0" style="fill: none; stroke: none; visibility: hidden; display: none;" p:name="bgRect" id="8e3246426d7d4cc2bbbfe6e0c95b800b" width="0" height="0"/>
+          <text xml:space="preserve" p:name="text" id="f5e8de8ba41b4c1b88ed704a8269a694" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: 'Comic Sans MS'; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;"><tspan x="0" y="0">Work item 2</tspan></text>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.Sketchy.GUI:box" id="2b291c97db2f4afe9e82a634bfb8d41a" transform="matrix(1,0,0,1,373,97)"><p:metadata><p:property name="box"><![CDATA[254,22]]></p:property><p:property name="textPadding"><![CDATA[12.700000000000003,1.4666666666666668]]></p:property><p:property name="fillColor"><![CDATA[#FFFFFFFF]]></p:property><p:property name="strokeColor"><![CDATA[#000000FF]]></p:property><p:property name="strokeStyle"><![CDATA[1|]]></p:property><p:property name="textContent"><![CDATA[]]></p:property><p:property name="textFont"><![CDATA['Comic Sans MS'|normal|normal|12px|none]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textAlign"><![CDATA[1,1]]></p:property></p:metadata>
+            <path style="stroke-linejoin: round; fill: rgb(255, 255, 255); fill-opacity: 1; stroke: rgb(0, 0, 0); stroke-opacity: 1; stroke-width: 1;" p:name="line1" id="b55bb43d90ef47eab683633fa66f49e5" transform="translate(0.5,0.5)" d="M 0 0 C 85 0 169 0 254 0 C 254 7 254 15 254 22 C 169 22 85 22 0 22 C 0 15 0 7 0 0 z"/>
+            <text p:name="text" id="d67ab2de9c4d4a1d8c77c770fcf94c4e" style="font-family: 'Comic Sans MS'; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none; fill: rgb(0, 0, 0); fill-opacity: 1;" transform="translate(127,11)"/>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.Common:PlainTextV2" p:sc="Label" id="605e111b766841a58e22aaa7f5254b56" transform="matrix(1,0,0,1,482,113)"><p:metadata><p:property name="disabled"><![CDATA[false]]></p:property><p:property name="width"><![CDATA[100,0]]></p:property><p:property name="fixedWidth"><![CDATA[false]]></p:property><p:property name="label"><![CDATA[Step 1]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textFont"><![CDATA['Comic Sans MS'|normal|normal|12px|none]]></p:property><p:property name="textAlign"><![CDATA[0,0]]></p:property></p:metadata>
+            <rect x="0" y="0" style="fill: none; stroke: none; visibility: hidden; display: none;" p:name="bgRect" id="4e14a480b9dd40de9e1d44297d090ff8" width="0" height="0"/>
+            <text xml:space="preserve" p:name="text" id="2d233d2f10ba4082b5dbd10fe5e95708" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: 'Comic Sans MS'; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;"><tspan x="0" y="0">Step 1</tspan></text>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.Sketchy.GUI:textbox" id="9efe2c75a096455392f3bd2747604803" transform="matrix(1,0,0,1,606,96)">
+          <p:metadata>
+            <p:property name="box"><![CDATA[20,24]]></p:property>
+            <p:property name="disabled"><![CDATA[false]]></p:property>
+            <p:property name="fillColor"><![CDATA[#FFFFFFFF]]></p:property>
+            <p:property name="strokeColor"><![CDATA[#000000FF]]></p:property>
+            <p:property name="strokeStyle"><![CDATA[1|]]></p:property>
+            <p:property name="textContent"><![CDATA[X]]></p:property>
+            <p:property name="textFont"><![CDATA['Comic Sans MS'|normal|normal|12px|none]]></p:property>
+            <p:property name="textColor"><![CDATA[#000000FF]]></p:property>
+            <p:property name="textAlign"><![CDATA[0,1]]></p:property>
+          </p:metadata>
+          <g p:name="rect" id="f04646c4f4984b6fba45d630cbcc1312" transform="translate(0.5,0.5)" style="fill: rgb(255, 255, 255); fill-opacity: 1; stroke: rgb(0, 0, 0); stroke-opacity: 1; stroke-width: 1;">
+            <path style="stroke-linejoin: round; stroke: rgb(0, 0, 0); stroke-opacity: 1; stroke-width: 1;" p:name="line1" id="8428772085124b77a7f33559a839fa24" transform="translate(0.5,0.5)" d="M 0 0 C 7 0 13 0 20 0 C 20 8 20 16 20 24 C 13 24 7 24 0 24 C 0 16 0 8 0 0 z"/>
+          </g>
+          <text p:name="text" id="b3be2b023ce943ef8c8f3f3228623431" style="font-family: 'Comic Sans MS'; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none; fill: rgb(0, 0, 0); fill-opacity: 1;" transform="translate(6,17)">X</text>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.Sketchy.GUI:box" id="b0d4c26f643c4b1f9a93b265ca5fa19e" transform="matrix(1,0,0,1,639,72)"><p:metadata><p:property name="box"><![CDATA[198,22]]></p:property><p:property name="textPadding"><![CDATA[9.900000000000002,1.4666666666666668]]></p:property><p:property name="fillColor"><![CDATA[#FFFFFFFF]]></p:property><p:property name="strokeColor"><![CDATA[#000000FF]]></p:property><p:property name="strokeStyle"><![CDATA[1|]]></p:property><p:property name="textContent"><![CDATA[]]></p:property><p:property name="textFont"><![CDATA['Comic Sans MS'|normal|normal|12px|none]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textAlign"><![CDATA[1,1]]></p:property></p:metadata>
+            <path style="stroke-linejoin: round; fill: rgb(255, 255, 255); fill-opacity: 1; stroke: rgb(0, 0, 0); stroke-opacity: 1; stroke-width: 1;" p:name="line1" id="64757f0e32e34b3c8ddbc617a657a745" transform="translate(0.5,0.5)" d="M 0 0 C 66 -1 132 -1 198 0 C 198 7 198 15 198 22 C 132 21 66 21 0 22 C 0 15 0 7 0 0 z"/>
+            <text p:name="text" id="ffea18d7706c49cfb8b003c5a6d7ebd5" style="font-family: 'Comic Sans MS'; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none; fill: rgb(0, 0, 0); fill-opacity: 1;" transform="translate(99,11)"/>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.Sketchy.GUI:textbox" id="add190848fd64092a370edc0b185fdde" transform="matrix(1,0,0,1,816,70)">
+          <p:metadata>
+            <p:property name="box"><![CDATA[20,24]]></p:property>
+            <p:property name="disabled"><![CDATA[false]]></p:property>
+            <p:property name="fillColor"><![CDATA[#FFFFFFFF]]></p:property>
+            <p:property name="strokeColor"><![CDATA[#000000FF]]></p:property>
+            <p:property name="strokeStyle"><![CDATA[1|]]></p:property>
+            <p:property name="textContent"><![CDATA[X]]></p:property>
+            <p:property name="textFont"><![CDATA['Comic Sans MS'|normal|normal|12px|none]]></p:property>
+            <p:property name="textColor"><![CDATA[#000000FF]]></p:property>
+            <p:property name="textAlign"><![CDATA[0,1]]></p:property>
+          </p:metadata>
+          <g p:name="rect" id="e9120e7ce3594ea394f662f511a39b24" transform="translate(0.5,0.5)" style="fill: rgb(255, 255, 255); fill-opacity: 1; stroke: rgb(0, 0, 0); stroke-opacity: 1; stroke-width: 1;">
+            <path style="stroke-linejoin: round; stroke: rgb(0, 0, 0); stroke-opacity: 1; stroke-width: 1;" p:name="line1" id="15803a95f97b46909e7224c7a01120d4" transform="translate(0.5,0.5)" d="M 0 0 C 7 0 13 0 20 0 C 20 8 20 16 20 24 C 13 24 7 24 0 24 C 0 16 0 8 0 0 z"/>
+          </g>
+          <text p:name="text" id="bd2c77fd2fc24da4bbe705320d376fca" style="font-family: 'Comic Sans MS'; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none; fill: rgb(0, 0, 0); fill-opacity: 1;" transform="translate(6,17)">X</text>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.Sketchy.GUI:checkbox" p:sc="Checked Checkbox" id="e15e871ec5ef42769776229116797d5d" transform="matrix(1,0,0,1,644,75)"><p:metadata><p:property name="checked"><![CDATA[true]]></p:property><p:property name="disabled"><![CDATA[false]]></p:property><p:property name="fillColor"><![CDATA[#FFFFFFFF]]></p:property><p:property name="strokeColor"><![CDATA[#000000FF]]></p:property><p:property name="strokeStyle"><![CDATA[1|]]></p:property><p:property name="textContent"><![CDATA[Check 1]]></p:property><p:property name="textFont"><![CDATA['Comic Sans MS'|normal|normal|12px|none]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property></p:metadata>
+           <g p:name="rect" id="ffd436f625054ffb847d64550f0e7f63" style="fill: rgb(255, 255, 255); fill-opacity: 1; stroke: rgb(0, 0, 0); stroke-opacity: 1; stroke-width: 1;">
+                <path d="m 1.2896594,14.987973 c 4.21875,-0.0313 9.1874996,-0.562496 13.4062466,-0.593746 0.44792,-4.21875 -0.604173,-8.4375002 -0.156253,-12.6562502 -4.5937436,-0.22917 -8.9374936,0.0417 -13.5312436,-0.1875 -0.0729,4.47917 0.35417,8.9583302 0.28125,13.4374962 z" p:name="cbBox" id="860f01c25601458cb33469b6f8b6b933"/>
+                <path style="fill: none; visibility: visible;" d="m 5.0048894,5.0121168 1.88908,4.8033 3.3587596,-3.18198 c 2.28541,-4.02289 3.74045,-4.86056 5.126527,-8.83883" p:name="cbTick" id="7e70f3c5ffa4491989da6c93ef320bb4"/>
+    		</g>
+    		<text p:name="text" id="b3eaa88bb2cf46e4883c9111c40c8d56" style="font-family: 'Comic Sans MS'; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none; fill: rgb(0, 0, 0); fill-opacity: 1;" transform="translate(0,1)" x="20" y="12">Check 1</text>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.Sketchy.GUI:box" id="4d081c26ed9e43b4b4606f4b637259b1" transform="matrix(1,0,0,1,639,99)"><p:metadata><p:property name="box"><![CDATA[198,22]]></p:property><p:property name="textPadding"><![CDATA[9.900000000000002,1.4666666666666668]]></p:property><p:property name="fillColor"><![CDATA[#FFFFFFFF]]></p:property><p:property name="strokeColor"><![CDATA[#000000FF]]></p:property><p:property name="strokeStyle"><![CDATA[1|]]></p:property><p:property name="textContent"><![CDATA[]]></p:property><p:property name="textFont"><![CDATA['Comic Sans MS'|normal|normal|12px|none]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textAlign"><![CDATA[1,1]]></p:property></p:metadata>
+            <path style="stroke-linejoin: round; fill: rgb(255, 255, 255); fill-opacity: 1; stroke: rgb(0, 0, 0); stroke-opacity: 1; stroke-width: 1;" p:name="line1" id="4618c0005cd949dbac92d7e561700473" transform="translate(0.5,0.5)" d="M 0 0 C 66 -1 132 -1 198 0 C 198 7 198 15 198 22 C 132 21 66 21 0 22 C 0 15 0 7 0 0 z"/>
+            <text p:name="text" id="a154249b717344448dfe84cbc599e215" style="font-family: 'Comic Sans MS'; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none; fill: rgb(0, 0, 0); fill-opacity: 1;" transform="translate(99,11)"/>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.Sketchy.GUI:textbox" id="18ba5dc0b8a64b3b8aa454a401925002" transform="matrix(1,0,0,1,818,97)">
+          <p:metadata>
+            <p:property name="box"><![CDATA[20,24]]></p:property>
+            <p:property name="disabled"><![CDATA[false]]></p:property>
+            <p:property name="fillColor"><![CDATA[#FFFFFFFF]]></p:property>
+            <p:property name="strokeColor"><![CDATA[#000000FF]]></p:property>
+            <p:property name="strokeStyle"><![CDATA[1|]]></p:property>
+            <p:property name="textContent"><![CDATA[X]]></p:property>
+            <p:property name="textFont"><![CDATA['Comic Sans MS'|normal|normal|12px|none]]></p:property>
+            <p:property name="textColor"><![CDATA[#000000FF]]></p:property>
+            <p:property name="textAlign"><![CDATA[0,1]]></p:property>
+          </p:metadata>
+          <g p:name="rect" id="89d5927ad2f2409eae27d2e4f51f2883" transform="translate(0.5,0.5)" style="fill: rgb(255, 255, 255); fill-opacity: 1; stroke: rgb(0, 0, 0); stroke-opacity: 1; stroke-width: 1;">
+            <path style="stroke-linejoin: round; stroke: rgb(0, 0, 0); stroke-opacity: 1; stroke-width: 1;" p:name="line1" id="5cb6c1b330104721bf58f865d3e29679" transform="translate(0.5,0.5)" d="M 0 0 C 7 0 13 0 20 0 C 20 8 20 16 20 24 C 13 24 7 24 0 24 C 0 16 0 8 0 0 z"/>
+          </g>
+          <text p:name="text" id="ffef9c7d590742f3b661235abadc94e8" style="font-family: 'Comic Sans MS'; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none; fill: rgb(0, 0, 0); fill-opacity: 1;" transform="translate(6,17)">X</text>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.Sketchy.GUI:checkbox" p:sc="Checked Checkbox" id="4512b590f0bb4710b88a02cc05fdfcb0" transform="matrix(1,0,0,1,646,102)"><p:metadata><p:property name="checked"><![CDATA[true]]></p:property><p:property name="disabled"><![CDATA[false]]></p:property><p:property name="fillColor"><![CDATA[#FFFFFFFF]]></p:property><p:property name="strokeColor"><![CDATA[#000000FF]]></p:property><p:property name="strokeStyle"><![CDATA[1|]]></p:property><p:property name="textContent"><![CDATA[Check 2]]></p:property><p:property name="textFont"><![CDATA['Comic Sans MS'|normal|normal|12px|none]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property></p:metadata>
+           <g p:name="rect" id="e37ef8f99e204e6bbec251ae4f78c1df" style="fill: rgb(255, 255, 255); fill-opacity: 1; stroke: rgb(0, 0, 0); stroke-opacity: 1; stroke-width: 1;">
+                <path d="m 1.2896594,14.987973 c 4.21875,-0.0313 9.1874996,-0.562496 13.4062466,-0.593746 0.44792,-4.21875 -0.604173,-8.4375002 -0.156253,-12.6562502 -4.5937436,-0.22917 -8.9374936,0.0417 -13.5312436,-0.1875 -0.0729,4.47917 0.35417,8.9583302 0.28125,13.4374962 z" p:name="cbBox" id="062bf45b46e946d19c39eaa4276a6444"/>
+                <path style="fill: none; visibility: visible;" d="m 5.0048894,5.0121168 1.88908,4.8033 3.3587596,-3.18198 c 2.28541,-4.02289 3.74045,-4.86056 5.126527,-8.83883" p:name="cbTick" id="02f2617e43d24eb2b0e4c8929f0a303e"/>
+    		</g>
+    		<text p:name="text" id="5f0311fbd483475381383fc5be449aec" style="font-family: 'Comic Sans MS'; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none; fill: rgb(0, 0, 0); fill-opacity: 1;" transform="translate(0,1)" x="20" y="12">Check 2</text>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.Sketchy.GUI:box" id="a3033a454c424cd6b05012cf3b4e1ca3" transform="matrix(1,0,0,1,372,72)"><p:metadata><p:property name="box"><![CDATA[254,22]]></p:property><p:property name="textPadding"><![CDATA[12.700000000000003,1.4666666666666668]]></p:property><p:property name="fillColor"><![CDATA[#FFFFFFFF]]></p:property><p:property name="strokeColor"><![CDATA[#000000FF]]></p:property><p:property name="strokeStyle"><![CDATA[1|]]></p:property><p:property name="textContent"><![CDATA[]]></p:property><p:property name="textFont"><![CDATA['Comic Sans MS'|normal|normal|12px|none]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textAlign"><![CDATA[1,1]]></p:property></p:metadata>
+            <path style="stroke-linejoin: round; fill: rgb(255, 255, 255); fill-opacity: 1; stroke: rgb(0, 0, 0); stroke-opacity: 1; stroke-width: 1;" p:name="line1" id="212459964972462ea7d4838989117a59" transform="translate(0.5,0.5)" d="M 0 0 C 85 0 169 0 254 0 C 254 7 254 15 254 22 C 169 22 85 22 0 22 C 0 15 0 7 0 0 z"/>
+            <text p:name="text" id="f19d797228f34771b2214fd9eb01e1f4" style="font-family: 'Comic Sans MS'; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none; fill: rgb(0, 0, 0); fill-opacity: 1;" transform="translate(127,11)"/>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.Common:PlainTextV2" p:sc="Label" id="4d4f2e09938b41399def2ba547969802" transform="matrix(1,0,0,1,481,88)"><p:metadata><p:property name="disabled"><![CDATA[false]]></p:property><p:property name="width"><![CDATA[100,0]]></p:property><p:property name="fixedWidth"><![CDATA[false]]></p:property><p:property name="label"><![CDATA[Default Check 1]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textFont"><![CDATA['Comic Sans MS'|normal|normal|12px|none]]></p:property><p:property name="textAlign"><![CDATA[0,0]]></p:property></p:metadata>
+            <rect x="0" y="0" style="fill: none; stroke: none; visibility: hidden; display: none;" p:name="bgRect" id="9c37eed03ee64375bea08e71193ff51b" width="0" height="0"/>
+            <text xml:space="preserve" p:name="text" id="e448d2b0f7564dd8bd5853c6e7091137" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: 'Comic Sans MS'; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;"><tspan x="0" y="0">Default Check 1</tspan></text>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.Sketchy.GUI:textbox" id="1b89aa7cc8f64d58af531d71ea13d708" transform="matrix(1,0,0,1,605,71)">
+          <p:metadata>
+            <p:property name="box"><![CDATA[20,24]]></p:property>
+            <p:property name="disabled"><![CDATA[false]]></p:property>
+            <p:property name="fillColor"><![CDATA[#FFFFFFFF]]></p:property>
+            <p:property name="strokeColor"><![CDATA[#000000FF]]></p:property>
+            <p:property name="strokeStyle"><![CDATA[1|]]></p:property>
+            <p:property name="textContent"><![CDATA[X]]></p:property>
+            <p:property name="textFont"><![CDATA['Comic Sans MS'|normal|normal|12px|none]]></p:property>
+            <p:property name="textColor"><![CDATA[#000000FF]]></p:property>
+            <p:property name="textAlign"><![CDATA[0,1]]></p:property>
+          </p:metadata>
+          <g p:name="rect" id="f128302fc8c94ac5b882371f842162c7" transform="translate(0.5,0.5)" style="fill: rgb(255, 255, 255); fill-opacity: 1; stroke: rgb(0, 0, 0); stroke-opacity: 1; stroke-width: 1;">
+            <path style="stroke-linejoin: round; stroke: rgb(0, 0, 0); stroke-opacity: 1; stroke-width: 1;" p:name="line1" id="29bbda41baf24c668277ac5f32a2dbb7" transform="translate(0.5,0.5)" d="M 0 0 C 7 0 13 0 20 0 C 20 8 20 16 20 24 C 13 24 7 24 0 24 C 0 16 0 8 0 0 z"/>
+          </g>
+          <text p:name="text" id="c7a8304b5bdc4756bb063deec82d4f9c" style="font-family: 'Comic Sans MS'; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none; fill: rgb(0, 0, 0); fill-opacity: 1;" transform="translate(6,17)">X</text>
+        </g></Content></Page></Pages></Document>

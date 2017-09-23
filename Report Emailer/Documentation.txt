@@ -1,0 +1,10 @@
+an application that uses a sql query to pull data from a connection string and sends that sql results to a list of email addresses in a selected formats. 
+
+TODO's; 
+- BUG: fix table headers with sql results, view result, maybe event download file and send email.
+- add some function to query or view and use in the sql query the sql database objects{tables, view, functions, ....}
+	> 1st task, find a way for MVVM to know about a textbox's cursor position and selected text
+	> add sql tool to assist in writing sql queries. {maybe add something like intellisense}
+- change application to implement async tasks that would not keep a hold on the UI while processing
+- add Pdf file support
+- change applications to display friendly exception messages to results. 

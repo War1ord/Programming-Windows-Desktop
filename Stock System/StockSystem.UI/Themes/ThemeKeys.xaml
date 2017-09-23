@@ -1,0 +1,34 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+
+	<Style x:Key="HeaderTextBlockStyle" TargetType="TextBlock">
+		<Setter Property="FontSize" Value="{DynamicResource HeaderFontSize}" />
+		<Setter Property="FontFamily" Value="{DynamicResource HeaderFontFamily}" />
+		<Setter Property="Foreground" Value="{DynamicResource HeaderFontFrontGround}" />
+	</Style>
+	<Style x:Key="SubHeaderTextBlockStyle" TargetType="TextBlock">
+		<Setter Property="FontSize" Value="{StaticResource SubHeaderFontSize}" />
+		<Setter Property="FontFamily" Value="{DynamicResource HeaderFontFamily}" />
+		<Setter Property="Foreground" Value="{DynamicResource HeaderFontFrontGround}" />
+	</Style>
+
+	<Style x:Key="Content" TargetType="UserControl">
+	</Style>
+	<Style x:Key="Footer" TargetType="TextBlock" >
+		<Setter Property="Height" Value="{DynamicResource FooterHeight}"/>
+		<Setter Property="VerticalAlignment" Value="Bottom"/>
+		<Setter Property="HorizontalAlignment" Value="Center"/>
+	</Style>
+
+	<Style x:Key="MenuRow" TargetType="RowDefinition">
+		<Setter Property="Height" Value="{DynamicResource MenuRowHeight}" />
+	</Style>
+	<Style x:Key="ContentRow" TargetType="RowDefinition">
+		<!--<Setter Property="Height" Value="{DynamicResource ContentRowHeight}" />--><!--Dont set Content's height because it needs to auto resize-->
+	</Style>
+	<Style x:Key="FooterRow" TargetType="RowDefinition">
+		<Setter Property="Height" Value="{DynamicResource FooterHeightGridLength}"/>
+	</Style>
+
+</ResourceDictionary>

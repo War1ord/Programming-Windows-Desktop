@@ -1,0 +1,74 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Work Tracker.Business", "Work Tracker.Business\Work Tracker.Business.csproj", "{07B9834E-F1FE-49D0-85FC-1BA62A652562}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Documentation", "_Documentation", "{236F4570-4790-4B8C-9DCA-AF2D5945FB47}"
+	ProjectSection(SolutionItems) = preProject
+		Work Tracker.Business\Business.cd = Work Tracker.Business\Business.cd
+		Business.png = Business.png
+		Work Tracker.Data\Data.cd = Work Tracker.Data\Data.cd
+		Data.png = Data.png
+		Documentation.txt = Documentation.txt
+		Work Tracker.Business.Models\Models.cd = Work Tracker.Business.Models\Models.cd
+		Models.png = Models.png
+		UI.design.ep = UI.design.ep
+		UI.design.png = UI.design.png
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Work Tracker.Business.Models", "Work Tracker.Business.Models\Work Tracker.Business.Models.csproj", "{280A6F84-944A-473C-8E54-669577EBCF00}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 Business", "2 Business", "{FEAAA13F-E34E-4F45-A018-06484D97E14A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Tests", "_Tests", "{EFC55123-829E-4219-97C8-3789517A5411}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests.Business", "Tests.Business\Tests.Business.csproj", "{F44E49A7-0858-4491-AA8D-2D822FB94B18}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 Data", "1 Data", "{D3CDF4C6-039B-43F8-A9B0-FF80FF43B0B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Work Tracker.Data", "Work Tracker.Data\Work Tracker.Data.csproj", "{D5BD6FD3-3BD4-4087-87A7-8DB73D6109A0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 UI", "3 UI", "{1EB9E719-9FAC-497C-B8C2-19A4097DEB04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Work Tracker", "Work Tracker\Work Tracker.csproj", "{E7F01CBF-217B-48BB-BA2E-F841245BAD53}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07B9834E-F1FE-49D0-85FC-1BA62A652562}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07B9834E-F1FE-49D0-85FC-1BA62A652562}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07B9834E-F1FE-49D0-85FC-1BA62A652562}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07B9834E-F1FE-49D0-85FC-1BA62A652562}.Release|Any CPU.Build.0 = Release|Any CPU
+		{280A6F84-944A-473C-8E54-669577EBCF00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{280A6F84-944A-473C-8E54-669577EBCF00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{280A6F84-944A-473C-8E54-669577EBCF00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{280A6F84-944A-473C-8E54-669577EBCF00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F44E49A7-0858-4491-AA8D-2D822FB94B18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F44E49A7-0858-4491-AA8D-2D822FB94B18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F44E49A7-0858-4491-AA8D-2D822FB94B18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F44E49A7-0858-4491-AA8D-2D822FB94B18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5BD6FD3-3BD4-4087-87A7-8DB73D6109A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5BD6FD3-3BD4-4087-87A7-8DB73D6109A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5BD6FD3-3BD4-4087-87A7-8DB73D6109A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5BD6FD3-3BD4-4087-87A7-8DB73D6109A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7F01CBF-217B-48BB-BA2E-F841245BAD53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7F01CBF-217B-48BB-BA2E-F841245BAD53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7F01CBF-217B-48BB-BA2E-F841245BAD53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7F01CBF-217B-48BB-BA2E-F841245BAD53}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{07B9834E-F1FE-49D0-85FC-1BA62A652562} = {FEAAA13F-E34E-4F45-A018-06484D97E14A}
+		{280A6F84-944A-473C-8E54-669577EBCF00} = {FEAAA13F-E34E-4F45-A018-06484D97E14A}
+		{F44E49A7-0858-4491-AA8D-2D822FB94B18} = {EFC55123-829E-4219-97C8-3789517A5411}
+		{D5BD6FD3-3BD4-4087-87A7-8DB73D6109A0} = {D3CDF4C6-039B-43F8-A9B0-FF80FF43B0B4}
+		{E7F01CBF-217B-48BB-BA2E-F841245BAD53} = {1EB9E719-9FAC-497C-B8C2-19A4097DEB04}
+	EndGlobalSection
+EndGlobal

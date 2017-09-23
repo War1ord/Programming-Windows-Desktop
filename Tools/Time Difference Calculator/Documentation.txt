@@ -1,0 +1,2 @@
+a time calculator that works out the (Time Span from one time to the other. 
+Format (HH:mm)

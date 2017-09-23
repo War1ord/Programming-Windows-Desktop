@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Report Emailer.exe" version="1.0.0.2" publicKeyToken="6ce10b022ca3ea28" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Report Emailer" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Report Emailer.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EPPlus.dll" size="673280">
+      <assemblyIdentity name="EPPlus" version="3.1.3.0" publicKeyToken="EA159FDAA78159A1" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>CG+5K/G9SGkHEaYI9icGwU5A0gwX5gwvuBi6S0XZll4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GalaSoft.MvvmLight.Extras.WPF45.dll" size="25600">
+      <assemblyIdentity name="GalaSoft.MvvmLight.Extras.WPF45" version="4.2.30.23246" publicKeyToken="0E27B6F8BE9B2EF7" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>b1uKZW8Tpd+sgSsYTv6I3uKMOaAyFq2t4ZXJSxuYCDg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GalaSoft.MvvmLight.WPF45.dll" size="28672">
+      <assemblyIdentity name="GalaSoft.MvvmLight.WPF45" version="4.2.30.23246" publicKeyToken="EABBF6A5F5AF5004" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Ra1klRciyr2nsX9dKzMDyQcrrMgbD4v8UPqe0omv7xw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.Practices.ServiceLocation.dll" size="29760">
+      <assemblyIdentity name="Microsoft.Practices.ServiceLocation" version="1.0.0.0" publicKeyToken="31BF3856AD364E35" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>eee+a+dQmhpSY/ApLxRipXdEp8UsTaZHXHClBU0Iwyc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Report Emailer Business.dll" size="11776">
+      <assemblyIdentity name="Report Emailer Business" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>339reDbV+mRx4KyPCJn8T8M59apIHJPn7v69XONtIpg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Report Emailer Models.dll" size="5120">
+      <assemblyIdentity name="Report Emailer Models" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>kfKMqs4OyJsINypEnW/H8bGUb1aBrIdeyRgETLTGhVI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Report Emailer.exe" size="26072">
+      <assemblyIdentity name="Report Emailer" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>k/ixz0tOFUT0fbsavHDyVA4g9jv4vcfbvjQCjbS4u3M=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="System.Windows.Interactivity.dll" size="55880">
+      <assemblyIdentity name="System.Windows.Interactivity" version="4.5.0.0" publicKeyToken="31BF3856AD364E35" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>M7AGuwOLBusi8Zwdwfi6GpJkeq91F6sqqZzFPd0zbF0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Report Emailer.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>fzxBSr45tumrN8SNWWL0IeqRlxoh8+san/F4n6/GZJ4=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=OPTI\Charles.Kuperus" issuerKeyHash="96cb7565baf9d393ca2f252cb5bcf2caf9adaa2f" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>EAA+xeTxjhDJ1r1EfQpxh1BNBhLaOafrMMkOWoeu31s=</DigestValue></Reference></SignedInfo><SignatureValue>PllStnYrJtcrxHtAMWwJVbc9ptp/+60ZzPgqqW/rzObPY8MgKKrPKdOi+lDRViqGCkZ1oNVuqvgpz1lMdVe4esO2h0YcHtbSkD6oKz1TQ2kgb1qvP9FnnNOIiwYlx0StOiumjHs/H0pdLBcPsRjmTIPHzulxJzFoA0NFLEbLW4I=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>qarO0YPpojAJ/5N6tuZTRIUd/z8apDjyH+0hb1OXl41HZ9GC84LTqEzA2lgbBWAKh1wUdZ5TgXZh7mnxg+oTBvCX8gjkZenVeMM8Y0KfOo8pBiFdXpSnB+A4Wo9BY6os2sSD+Vu5osbUB6OSvGbXwD6OTxEzB/4Y8Qucj7BVWP8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="5bdfae875a0ec930eba739da12064d5087710a7d44bdd6c9108ef1e4c53e0010" Description="" Url=""><as:assemblyIdentity name="Report Emailer.exe" version="1.0.0.2" publicKeyToken="6ce10b022ca3ea28" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=OPTI\Charles.Kuperus</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>pQ9dbwitBtPP3771pdGK5lLLgMRjqegZO+6Kah240wc=</DigestValue></Reference></SignedInfo><SignatureValue>FOnN1aeLTcmA/Kua0Qjszg9Yd88DY9jQa8TN/fQ8hl54agEb8E0w9ykurnQ9lhwAIjHdRHPSqALMW9Xa9tgCJECkEGFd2b+fLyae5ODLTGioy1+lCUnYxH8mYLGFqgGk7HTRJFy2KmOaM4B0q1JO1rmDaUdtgZF1rc2jiomOFIQ=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>qarO0YPpojAJ/5N6tuZTRIUd/z8apDjyH+0hb1OXl41HZ9GC84LTqEzA2lgbBWAKh1wUdZ5TgXZh7mnxg+oTBvCX8gjkZenVeMM8Y0KfOo8pBiFdXpSnB+A4Wo9BY6os2sSD+Vu5osbUB6OSvGbXwD6OTxEzB/4Y8Qucj7BVWP8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQGYCfCBDwl5lPkTKxt3h50DANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigATwBQAFQASQBcAEMAaABhAHIAbABlAHMALgBLAHUAcABlAHIAdQBzMB4XDTE1MTAwNTA1NDM0NVoXDTE2MTAwNDExNDM0NVowMzExMC8GA1UEAx4oAE8AUABUAEkAXABDAGgAYQByAGwAZQBzAC4ASwB1AHAAZQByAHUAczCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAqarO0YPpojAJ/5N6tuZTRIUd/z8apDjyH+0hb1OXl41HZ9GC84LTqEzA2lgbBWAKh1wUdZ5TgXZh7mnxg+oTBvCX8gjkZenVeMM8Y0KfOo8pBiFdXpSnB+A4Wo9BY6os2sSD+Vu5osbUB6OSvGbXwD6OTxEzB/4Y8Qucj7BVWP8CAwEAATANBgkqhkiG9w0BAQsFAAOBgQABn1+MMeENw8/l0VLtP9Zgf/R3JlnD4Ryueg8mQljACdSOTAj/334aQCiVPy2N9XmJJnmLus8Mess9C8k1yHGdqyyy+J4DHIaHqpp/krYfngIe4bNjSePG1LKy/q405ikFqJFrl2/gywV1j0V8/PZCWFyOKHkE875Oeeyja/12ag==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

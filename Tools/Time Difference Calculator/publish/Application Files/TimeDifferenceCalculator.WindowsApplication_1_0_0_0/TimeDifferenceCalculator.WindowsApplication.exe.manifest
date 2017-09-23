@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="TimeDifferenceCalculator.WindowsApplication.exe" version="1.0.0.0" publicKeyToken="dc84ca64ce31b2e6" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="TimeDifferenceCalculator.WindowsApplication" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="TimeDifferenceCalculator.WindowsApplication.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TimeDifferenceCalculator.WindowsApplication.exe" size="11176">
+      <assemblyIdentity name="TimeDifferenceCalculator.WindowsApplication" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>rLVDPipjxyTVrKFk0CUtD/kR/rE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=War1ord-Pc\War1ord" issuerKeyHash="4a49bd1ed1141f52614472a78d94b00d7c36b63f" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>KqX57lYztNYAsAveKg11celn6sQ=</DigestValue></Reference></SignedInfo><SignatureValue>VrGIIRwpiXWIFwghgq9h7XjDWVpoJxjSKI8es3MzJ6BctWZ4J6I2GNoRkomfqrZmaIEpA6tWqgcn6wthFcurxg96vDYGwgd4bWPsba5t74c3LGmPgMo4Qxfa0unYCYaFUz1KvGvUeesemZ/Cu/AiI6R/BGZxPx7kWTmjQGpWL10=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>9+Jeyvp/gCIPphIduDfcPegU6ZSgf6pyygikPGZpB7yB/XJ/5tCsol9T1ZQkvo99kJjP/o1+1UdPI+k+7lWAXcgEsRPEGEew5XBxMoNh6QvcBuQcPFUwFpPcG7u0xMSPOvTAYlbMfCU6zVr7gU2l0pN2j8TPX95YZ7vfCEimHOU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="c4ea67e971750d2ade0bb000d6b43356eef9a52a" Description="" Url=""><as:assemblyIdentity name="TimeDifferenceCalculator.WindowsApplication.exe" version="1.0.0.0" publicKeyToken="dc84ca64ce31b2e6" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=War1ord-Pc\War1ord</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>G+3D6cyUkeP6y8r4Zh/POhHLN84=</DigestValue></Reference></SignedInfo><SignatureValue>kZKIcJEIUYLZr5KL1+4+3PoZ2WAAi7CoWVcOvisQ7G3hE+pCIDBDQ8v12JgG72aTj2uVptQamq2DY0PgI+YGujTes4cUJLyEL+MREkRVyh94N+Jea8+2ZOpY7RfqklLznMoNB/NBa+jRxgetccjjAUlf+Y3T1kIpNYDwf+bKxJ0=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>9+Jeyvp/gCIPphIduDfcPegU6ZSgf6pyygikPGZpB7yB/XJ/5tCsol9T1ZQkvo99kJjP/o1+1UdPI+k+7lWAXcgEsRPEGEew5XBxMoNh6QvcBuQcPFUwFpPcG7u0xMSPOvTAYlbMfCU6zVr7gU2l0pN2j8TPX95YZ7vfCEimHOU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB4TCCAUqgAwIBAgIQPvLuE2iApYlGG/thFXqOWTANBgkqhkiG9w0BAQUFADAvMS0wKwYDVQQDHiQAVwBhAHIAMQBvAHIAZAAtAFAAYwBcAFcAYQByADEAbwByAGQwHhcNMTUwMTA4MTkyOTMwWhcNMTYwMTA5MDEyOTMwWjAvMS0wKwYDVQQDHiQAVwBhAHIAMQBvAHIAZAAtAFAAYwBcAFcAYQByADEAbwByAGQwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAPfiXsr6f4AiD6YSHbg33D3oFOmUoH+qcsoIpDxmaQe8gf1yf+bQrKJfU9WUJL6PfZCYz/6NftVHTyPpPu5VgF3IBLETxBhHsOVwcTKDYekL3AbkHDxVMBaT3Bu7tMTEjzr0wGJWzHwlOs1a+4FNpdKTdo/Ez1/eWGe73whIphzlAgMBAAEwDQYJKoZIhvcNAQEFBQADgYEAu06qbeYr32P8yVxlzjQBCp2jHL3ALi+BMhvyWUZ8SkxXBXltXp/8FAOvhfS/LBbqCGGC2G0a24l1GF4ifSZUc+B5UWjtt5XPMYpuFFbk3Qd6GOtbM5ZjipaU6xIdHZGht48a7dJEGWvthesO4Op5iDUehwLtHV/bkvUXMf4Kn0U=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

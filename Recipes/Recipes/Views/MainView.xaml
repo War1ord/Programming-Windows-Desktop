@@ -1,0 +1,21 @@
+﻿<UserControl x:Class="Recipes.Views.MainView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:view="clr-namespace:Recipes.Views"
+             mc:Ignorable="d" d:DesignHeight="524" d:DesignWidth="1065">
+	<Grid>
+		<TabControl Grid.ColumnSpan="2">
+			<TabItem Header="Recipe Search">
+				<view:SearchView DataContext="{Binding}" HorizontalAlignment="Left" VerticalAlignment="Top" />
+			</TabItem>
+			<TabItem Header="Recipe Manage">
+				<view:EditView DataContext="{Binding}" HorizontalAlignment="Left" VerticalAlignment="Top" />
+			</TabItem>
+			<TabItem Header="Admin">
+				<view:AdminView DataContext="{Binding}" HorizontalAlignment="Left" VerticalAlignment="Top" />
+			</TabItem>
+		</TabControl>
+	</Grid>
+</UserControl>

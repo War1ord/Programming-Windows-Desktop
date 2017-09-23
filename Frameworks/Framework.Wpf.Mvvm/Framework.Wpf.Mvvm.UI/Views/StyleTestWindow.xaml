@@ -1,0 +1,97 @@
+﻿<Window x:Class="Framework.Wpf.Mvvm.UI.Views.StyleTestWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        xmlns:vm="clr-namespace:Framework.Wpf.Mvvm.UI.ViewModels"
+        xmlns:uc="clr-namespace:Framework.Wpf.Mvvm.UI.Controls.Content"
+        d:DataContext="{d:DesignInstance vm:MainViewModel}">
+	<Grid>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="80" />
+			<RowDefinition Height="60" />
+			<RowDefinition Height="40" />
+			<RowDefinition Height="40" />
+			<RowDefinition />
+			<RowDefinition Height="40" />
+			<RowDefinition Height="60" />
+			<RowDefinition Height="60" />
+			<RowDefinition Height="80" />
+		</Grid.RowDefinitions>
+		<Border Grid.Row="0" BorderThickness="1" BorderBrush="Black" Background="Aqua" />
+		<Border Grid.Row="1" BorderThickness="1" BorderBrush="Black" Background="Aqua" />
+		<Border Grid.Row="2" BorderThickness="1" BorderBrush="Black" Background="Aqua" />
+		<Border Grid.Row="3" BorderThickness="1" BorderBrush="Black" Background="Aqua" />
+		<Grid Grid.Row="4">
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="100" />
+				<ColumnDefinition />
+				<ColumnDefinition Width="100" />
+			</Grid.ColumnDefinitions>
+			<Border Grid.Column="0" BorderThickness="1" BorderBrush="Black" Background="Aqua" />
+			<Grid Grid.Column="1">
+				<Grid.RowDefinitions>
+					<RowDefinition Height="40" />
+					<RowDefinition Height="40" />
+					<RowDefinition />
+					<RowDefinition Height="40" />
+				</Grid.RowDefinitions>
+				<Border Grid.Row="0" BorderThickness="1" BorderBrush="Black" Background="Aqua" />
+				<Border Grid.Row="1" BorderThickness="1" BorderBrush="Black" Background="Aqua" />
+				<StackPanel Grid.Row="2" Orientation="Vertical">
+					<Label Content="Label" />
+					<TextBox>TextBox</TextBox>
+					<TextBlock>TextBlock</TextBlock>
+					<Button>Button</Button>
+					<ComboBox>
+						<ComboBoxItem>ComboBoxItem 1</ComboBoxItem>
+						<ComboBoxItem>ComboBoxItem 2</ComboBoxItem>
+						<ComboBoxItem>ComboBoxItem 3</ComboBoxItem>
+					</ComboBox>
+					<StackPanel Orientation="Horizontal">
+						<CheckBox>CheckBox 1</CheckBox>
+						<CheckBox>CheckBox 2</CheckBox>
+						<CheckBox>CheckBox 3</CheckBox>
+					</StackPanel>
+					<StackPanel Orientation="Horizontal">
+						<RadioButton GroupName="RadioButton">RadioButton 1</RadioButton>
+						<RadioButton GroupName="RadioButton">RadioButton 2</RadioButton>
+						<RadioButton GroupName="RadioButton">RadioButton 3</RadioButton>
+					</StackPanel>
+					<TabControl>
+						<TabItem>TabItem 1</TabItem>
+						<TabItem>TabItem 2</TabItem>
+						<TabItem>TabItem 3</TabItem>
+					</TabControl>
+				</StackPanel>
+				<Border Grid.Row="3" BorderThickness="1" BorderBrush="Black" Background="Aqua" />
+			</Grid>
+			<Border Grid.Column="2" BorderThickness="1" BorderBrush="Black" Background="Aqua" />
+		</Grid>
+		<Border Grid.Row="5" BorderThickness="1" BorderBrush="Black" Background="Aqua" />
+		<Grid Grid.Row="6">
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition />
+				<ColumnDefinition />
+				<ColumnDefinition />
+			</Grid.ColumnDefinitions>
+			<Border Grid.Column="0" BorderThickness="1" BorderBrush="Black" Background="Aqua" />
+			<Border Grid.Column="1" BorderThickness="1" BorderBrush="Black" Background="Aqua" />
+			<Border Grid.Column="2" BorderThickness="1" BorderBrush="Black" Background="Aqua" />
+		</Grid>
+		<Grid Grid.Row="7">
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition />
+				<ColumnDefinition />
+				<ColumnDefinition />
+				<ColumnDefinition />
+			</Grid.ColumnDefinitions>
+			<Border Grid.Column="0" BorderThickness="1" BorderBrush="Black" Background="Aqua" />
+			<Border Grid.Column="1" BorderThickness="1" BorderBrush="Black" Background="Aqua" />
+			<Border Grid.Column="2" BorderThickness="1" BorderBrush="Black" Background="Aqua" />
+			<Border Grid.Column="3" BorderThickness="1" BorderBrush="Black" Background="Aqua" />
+		</Grid>
+		<Border Grid.Row="8" BorderThickness="1" BorderBrush="Black" Background="Aqua" />
+	</Grid>
+</Window>

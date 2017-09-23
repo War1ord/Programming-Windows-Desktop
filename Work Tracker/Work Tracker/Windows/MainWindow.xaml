@@ -1,0 +1,76 @@
+﻿<Window x:Class="Work_Tracker.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Work_Tracker"
+        xmlns:vm="clr-namespace:Work_Tracker.ViewModel"
+        xmlns:m="clr-namespace:Work_Tracker.Business.Models"
+        d:DataContext="{d:DesignInstance Type=vm:MainViewModel}"
+        mc:Ignorable="d"
+        Title="Work Tracker"
+        SizeToContent="WidthAndHeight"
+        Width="800" Height="460" 
+        DataContext="{Binding Source={StaticResource Locator}, Path=Main}"
+        >
+    <StackPanel Orientation="Vertical">
+        <Menu>
+            <MenuItem Header="_File">
+                <MenuItem Header="_New" Command="{Binding File_New_Command}"/>
+                <MenuItem Header="_Open" Command="{Binding File_Open_Command}"/>
+                <MenuItem Header="E_xit" Command="{Binding File_Exit_Command}"/>
+            </MenuItem>
+            <MenuItem Header="_Work Item">
+                <MenuItem Header="_Add" Command="{Binding WorkItem_Add_Command}"/>
+                <MenuItem Header="_Edit" Command="{Binding WorkItem_Edit_Command}"/>
+                <MenuItem Header="_Remove" Command="{Binding WorkItem_Remove_Command}"/>
+            </MenuItem>
+            <MenuItem Header="_Default Check">
+                <MenuItem Header="_Add" Command="{Binding DefaultCheck_Add_Command}"/>
+                <MenuItem Header="_Edit" Command="{Binding DefaultCheck_Remove_Command}"/>
+                <MenuItem Header="_Remove" Command="{Binding DefaultCheck_Remove_Command}"/>
+            </MenuItem>
+            <MenuItem Header="_Step">
+                <MenuItem Header="_Add" Command="{Binding Step_Add_Command}"/>
+                <MenuItem Header="_Edit" Command="{Binding Step_Edit_Command}"/>
+                <MenuItem Header="_Remove" Command="{Binding Step_Remove_Command}"/>
+            </MenuItem>
+            <MenuItem Header="_Check">
+                <MenuItem Header="_Add" Command="{Binding Check_Add_Command}"/>
+                <MenuItem Header="_Edit" Command="{Binding Check_Edit_Remove}"/>
+                <MenuItem Header="_Remove" Command="{Binding Check_Remove_Remove}"/>
+            </MenuItem>
+        </Menu>
+        <StackPanel Orientation="Horizontal">
+            <ListView ItemsSource="{Binding Items}" SelectedItem="{Binding SelectedItem}">
+                <ListView.ItemTemplate>
+                    <ItemContainerTemplate>
+                        <StackPanel>
+                            <TextBlock Text="{Binding Description}" />
+                        </StackPanel>
+                    </ItemContainerTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <StackPanel Orientation="Vertical">
+                <ListView ItemsSource="{Binding SelectedItem_DefaultChecks}" >
+                    <ListView.ItemTemplate>
+                        <ItemContainerTemplate>
+                            <StackPanel>
+                                <TextBlock Text="{Binding Description}" />
+                            </StackPanel>
+                        </ItemContainerTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+                <ListView ItemsSource="{Binding SelectedItem_Steps}" >
+                    <ListView.ItemTemplate>
+                        <ItemContainerTemplate>
+                            <StackPanel>
+                                <TextBlock Text="{Binding Description}" />
+                            </StackPanel>
+                        </ItemContainerTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackPanel>
+        </StackPanel>
+    </StackPanel>
+</Window>

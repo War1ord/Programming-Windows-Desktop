@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9DAF5D71-4D5B-4A2B-8918-575C977104FC}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Fraps_Quick_Reports</RootNamespace>
+    <AssemblyName>Fraps Quick Reports</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="Fraps Benchmarks-20170523T121040Z-001\Fraps Benchmarks\Dying Light\test123 DyingLightGame 2017-05-22 19-43-01-63 fps.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Fraps Benchmarks-20170523T121040Z-001\Fraps Benchmarks\Dying Light\DyingLightGame 2017-05-22 19-43-01-63 frametimes.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Fraps Benchmarks-20170523T121040Z-001\Fraps Benchmarks\Dying Light\test321 DyingLightGame 2017-05-22 19-43-01-63 minmaxavg.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Fraps Benchmarks-20170523T121040Z-001\Fraps Benchmarks\Mass Effect Andromeda\MassEffectAndromeda 2017-05-22 21-14-15-73 fps.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Fraps Benchmarks-20170523T121040Z-001\Fraps Benchmarks\Mass Effect Andromeda\MassEffectAndromeda 2017-05-22 21-14-15-73 frametimes.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Fraps Benchmarks-20170523T121040Z-001\Fraps Benchmarks\Mass Effect Andromeda\MassEffectAndromeda 2017-05-22 21-14-15-73 minmaxavg.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Fraps Benchmarks-20170523T121040Z-001\Fraps Benchmarks\Mass Effect Andromeda\MassEffectAndromeda 2017-05-22 21-15-55-84 fps.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Fraps Benchmarks-20170523T121040Z-001\Fraps Benchmarks\Mass Effect Andromeda\MassEffectAndromeda 2017-05-22 21-15-55-84 frametimes.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Fraps Benchmarks-20170523T121040Z-001\Fraps Benchmarks\Mass Effect Andromeda\MassEffectAndromeda 2017-05-22 21-15-55-84 minmaxavg.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Fraps Benchmarks-20170523T121040Z-001\Fraps Benchmarks\Mass Effect Andromeda\MassEffectAndromeda 2017-05-22 21-19-02-18 fps.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Fraps Benchmarks-20170523T121040Z-001\Fraps Benchmarks\Mass Effect Andromeda\MassEffectAndromeda 2017-05-22 21-19-02-18 frametimes.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Fraps Benchmarks-20170523T121040Z-001\Fraps Benchmarks\Mass Effect Andromeda\MassEffectAndromeda 2017-05-22 21-19-02-18 minmaxavg.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Fraps Benchmarks-20170523T121040Z-001\Fraps Benchmarks\Mass Effect Andromeda\MassEffectAndromeda 2017-05-22 21-25-07-40 fps.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Fraps Benchmarks-20170523T121040Z-001\Fraps Benchmarks\Mass Effect Andromeda\MassEffectAndromeda 2017-05-22 21-25-07-40 frametimes.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Fraps Benchmarks-20170523T121040Z-001\Fraps Benchmarks\Mass Effect Andromeda\MassEffectAndromeda 2017-05-22 21-25-07-40 minmaxavg.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Fraps Benchmarks-20170523T121040Z-001\Fraps Benchmarks\Mass Effect Andromeda\MassEffectAndromeda 2017-05-22 21-32-55-49 fps.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Fraps Benchmarks-20170523T121040Z-001\Fraps Benchmarks\Mass Effect Andromeda\MassEffectAndromeda 2017-05-22 21-32-55-49 frametimes.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Fraps Benchmarks-20170523T121040Z-001\Fraps Benchmarks\Mass Effect Andromeda\MassEffectAndromeda 2017-05-22 21-32-55-49 minmaxavg.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Fraps Benchmarks-20170523T121040Z-001\Fraps Benchmarks\Rise Of The Tomb Raider\ROTTR 2017-05-22 19-11-22-41 fps.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Fraps Benchmarks-20170523T121040Z-001\Fraps Benchmarks\Rise Of The Tomb Raider\ROTTR 2017-05-22 19-11-22-41 frametimes.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Fraps Benchmarks-20170523T121040Z-001\Fraps Benchmarks\Rise Of The Tomb Raider\ROTTR 2017-05-22 19-11-22-41 minmaxavg.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Fraps Benchmarks-20170523T121040Z-001\Fraps Benchmarks\Rise Of The Tomb Raider\ROTTR 2017-05-22 19-22-23-24 fps.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Fraps Benchmarks-20170523T121040Z-001\Fraps Benchmarks\Rise Of The Tomb Raider\ROTTR 2017-05-22 19-22-23-24 frametimes.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Fraps Benchmarks-20170523T121040Z-001\Fraps Benchmarks\Rise Of The Tomb Raider\ROTTR 2017-05-22 19-22-23-24 minmaxavg.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Fraps Benchmarks-20170523T121040Z-001\Fraps Benchmarks\Test\432 test 123 - Copy.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Fraps Benchmarks-20170523T121040Z-001\Fraps Benchmarks\Test\test 123 - Copy %282%29.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Fraps Benchmarks-20170523T121040Z-001\Fraps Benchmarks\Test\test 123.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Fraps Benchmarks-20170523T121040Z-001\Fraps Benchmarks\Rise Of The Tomb Raider\ROTTR 2017-05-22 19-11-22-41 %28funny artifacts%29.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fraps Benchmarks-20170523T121040Z-001\Fraps Benchmarks\Rise Of The Tomb Raider\ROTTR 2017-05-22 19-22-23-24 %28funny artifacts%28again%29%29 - Copy.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+</Project>

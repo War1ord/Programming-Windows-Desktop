@@ -1,0 +1,29 @@
+﻿<Window x:Class="CmdCommands.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:vm="clr-namespace:CmdCommands.ViewModels"
+        mc:Ignorable="d"
+        Title="Cmd Commands" Width="1024"  Height="768"
+        d:DataContext="{d:DesignInstance vm:MainViewModel}" >
+    <Grid>
+        <TabControl>
+            <TabItem Header="Run Commands">
+                <StackPanel Orientation="Vertical">
+                    <StackPanel Orientation="Horizontal">
+                        <Label Content="Command Names"></Label>
+                        <ComboBox ItemsSource="" SelectedItem="" DisplayMemberPath=""/>
+                    </StackPanel>
+                    <ListView ItemsSource="" SelectedItem="" DisplayMemberPath=""/>
+                    <Button Content="Run" Command=""/>
+                </StackPanel>
+            </TabItem>
+            <TabItem Header="Save Commands">
+                <StackPanel Orientation="Vertical">
+                    
+                </StackPanel>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>

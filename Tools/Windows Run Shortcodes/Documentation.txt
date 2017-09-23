@@ -1,0 +1,4 @@
+an application that creates a Shortcode application that you can run or execute on the run command. eg. Run => cmd or Run => ssms.
+This means I might have to have an app that generates exe files in the windows directory 
+or maybe I should look at a way to add a run path. 
+or I can look at using .cmd or .bat files to do this(NOTE: but with this method the cmd window is shown by default). 

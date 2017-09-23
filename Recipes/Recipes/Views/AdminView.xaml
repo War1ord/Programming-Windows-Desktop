@@ -1,0 +1,18 @@
+﻿<UserControl x:Class="Recipes.Views.AdminView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:vm="clr-namespace:Recipes.ViewModels;assembly=Recipes"
+             mc:Ignorable="d" 
+             d:DataContext="{d:DesignInstance vm:MainViewModel}" 
+             d:DesignWidth="512" d:DesignHeight="75"
+             DataContext="{Binding}">
+    <StackPanel>
+        <StackPanel Orientation="Horizontal">
+			<Button Command="{Binding CreateDatabaseCommand}" Margin="2">Create Database</Button>
+			<Button Command="{Binding DeleteAllRecipeCommand}" Margin="2">Delete All Recipes</Button>
+			<Button Command="{Binding ClearUnusedCategoriesCommand}" Margin="2">Clear Unused Categories</Button>
+		</StackPanel>
+	</StackPanel>
+</UserControl>
