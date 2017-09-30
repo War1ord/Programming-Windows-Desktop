@@ -1,0 +1,6 @@
+C:\Users\CharlesKuperus\Source\KC\Programming-Windows-Desktop\Tools\Base64StringFileConverter\Base64StringFileConverter.API\bin\Debug\Base64StringFileConverter.API.dll
+C:\Users\CharlesKuperus\Source\KC\Programming-Windows-Desktop\Tools\Base64StringFileConverter\Base64StringFileConverter.API\bin\Debug\Base64StringFileConverter.API.pdb
+C:\Users\CharlesKuperus\Source\KC\Programming-Windows-Desktop\Tools\Base64StringFileConverter\Base64StringFileConverter.API\obj\Debug\Base64StringFileConverter.API.csprojResolveAssemblyReference.cache
+C:\Users\CharlesKuperus\Source\KC\Programming-Windows-Desktop\Tools\Base64StringFileConverter\Base64StringFileConverter.API\obj\Debug\Base64StringFileConverter.API.csproj.CoreCompileInputs.cache
+C:\Users\CharlesKuperus\Source\KC\Programming-Windows-Desktop\Tools\Base64StringFileConverter\Base64StringFileConverter.API\obj\Debug\Base64StringFileConverter.API.dll
+C:\Users\CharlesKuperus\Source\KC\Programming-Windows-Desktop\Tools\Base64StringFileConverter\Base64StringFileConverter.API\obj\Debug\Base64StringFileConverter.API.pdb

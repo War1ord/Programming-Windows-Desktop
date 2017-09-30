@@ -1,0 +1,15 @@
+C:\Users\CharlesKuperus\Source\KC\Programming-Windows-Desktop\Tools\Base64StringFileConverter\Base64StringFileConverter.Windows\bin\Debug\Base64StringFileConverter.Windows.exe.config
+C:\Users\CharlesKuperus\Source\KC\Programming-Windows-Desktop\Tools\Base64StringFileConverter\Base64StringFileConverter.Windows\bin\Debug\Base64StringFileConverter.Windows.exe
+C:\Users\CharlesKuperus\Source\KC\Programming-Windows-Desktop\Tools\Base64StringFileConverter\Base64StringFileConverter.Windows\bin\Debug\Base64StringFileConverter.Windows.pdb
+C:\Users\CharlesKuperus\Source\KC\Programming-Windows-Desktop\Tools\Base64StringFileConverter\Base64StringFileConverter.Windows\obj\Debug\MainWindow.g.cs
+C:\Users\CharlesKuperus\Source\KC\Programming-Windows-Desktop\Tools\Base64StringFileConverter\Base64StringFileConverter.Windows\obj\Debug\App.g.cs
+C:\Users\CharlesKuperus\Source\KC\Programming-Windows-Desktop\Tools\Base64StringFileConverter\Base64StringFileConverter.Windows\obj\Debug\Base64StringFileConverter.Windows_MarkupCompile.cache
+C:\Users\CharlesKuperus\Source\KC\Programming-Windows-Desktop\Tools\Base64StringFileConverter\Base64StringFileConverter.Windows\obj\Debug\Base64StringFileConverter.Windows_MarkupCompile.lref
+C:\Users\CharlesKuperus\Source\KC\Programming-Windows-Desktop\Tools\Base64StringFileConverter\Base64StringFileConverter.Windows\obj\Debug\MainWindow.baml
+C:\Users\CharlesKuperus\Source\KC\Programming-Windows-Desktop\Tools\Base64StringFileConverter\Base64StringFileConverter.Windows\obj\Debug\Base64StringFileConverter.Windows.g.resources
+C:\Users\CharlesKuperus\Source\KC\Programming-Windows-Desktop\Tools\Base64StringFileConverter\Base64StringFileConverter.Windows\obj\Debug\Base64StringFileConverter.Windows.Properties.Resources.resources
+C:\Users\CharlesKuperus\Source\KC\Programming-Windows-Desktop\Tools\Base64StringFileConverter\Base64StringFileConverter.Windows\obj\Debug\Base64StringFileConverter.Windows.csproj.GenerateResource.Cache
+C:\Users\CharlesKuperus\Source\KC\Programming-Windows-Desktop\Tools\Base64StringFileConverter\Base64StringFileConverter.Windows\obj\Debug\Base64StringFileConverter.Windows.csproj.CoreCompileInputs.cache
+C:\Users\CharlesKuperus\Source\KC\Programming-Windows-Desktop\Tools\Base64StringFileConverter\Base64StringFileConverter.Windows\obj\Debug\Base64StringFileConverter.Windows.exe
+C:\Users\CharlesKuperus\Source\KC\Programming-Windows-Desktop\Tools\Base64StringFileConverter\Base64StringFileConverter.Windows\obj\Debug\Base64StringFileConverter.Windows.pdb
+C:\Users\CharlesKuperus\Source\KC\Programming-Windows-Desktop\Tools\Base64StringFileConverter\Base64StringFileConverter.Windows\obj\Debug\Base64StringFileConverter.Windows.csprojResolveAssemblyReference.cache
