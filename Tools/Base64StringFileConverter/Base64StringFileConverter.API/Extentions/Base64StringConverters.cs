@@ -39,5 +39,6 @@ namespace Base64StringFileConverter.API
 				return Convert.ToBase64String(fileContent);
 		}
 
+
 	}
 }
