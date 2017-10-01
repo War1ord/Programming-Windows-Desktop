@@ -11,6 +11,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Clients", "Clients", "{3BA2
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Base64StringFileConverter.API", "Base64StringFileConverter.API\Base64StringFileConverter.API.csproj", "{38D28B52-3AF1-4262-8CB4-4BF3C124CF10}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{69CBEB5B-F3F4-4F46-BEE5-B45C7C221C99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Base64StringFileConverter.API.Tests", "Base64StringFileConverter.API.Tests\Base64StringFileConverter.API.Tests.csproj", "{ED3954A8-BB03-4211-B506-474D8A096046}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +29,10 @@ Global
 		{38D28B52-3AF1-4262-8CB4-4BF3C124CF10}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38D28B52-3AF1-4262-8CB4-4BF3C124CF10}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38D28B52-3AF1-4262-8CB4-4BF3C124CF10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED3954A8-BB03-4211-B506-474D8A096046}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED3954A8-BB03-4211-B506-474D8A096046}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED3954A8-BB03-4211-B506-474D8A096046}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED3954A8-BB03-4211-B506-474D8A096046}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +40,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{A114D672-08AA-4E38-9C46-2BBB969546A2} = {3BA2D83C-437D-492C-8A1F-E6158469BDDC}
 		{38D28B52-3AF1-4262-8CB4-4BF3C124CF10} = {2C7D5C63-2602-4368-B0D9-1B46EF56E7E6}
+		{ED3954A8-BB03-4211-B506-474D8A096046} = {69CBEB5B-F3F4-4F46-BEE5-B45C7C221C99}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A12E289E-7877-44CC-9184-304ECC5A7705}

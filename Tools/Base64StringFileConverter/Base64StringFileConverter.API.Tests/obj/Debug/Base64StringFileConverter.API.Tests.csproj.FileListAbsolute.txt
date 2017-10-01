@@ -1,0 +1,16 @@
+C:\Users\CharlesKuperus\Source\KC\Programming-Windows-Desktop\Tools\Base64StringFileConverter\Base64StringFileConverter.API.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\CharlesKuperus\Source\KC\Programming-Windows-Desktop\Tools\Base64StringFileConverter\Base64StringFileConverter.API.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\CharlesKuperus\Source\KC\Programming-Windows-Desktop\Tools\Base64StringFileConverter\Base64StringFileConverter.API.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\CharlesKuperus\Source\KC\Programming-Windows-Desktop\Tools\Base64StringFileConverter\Base64StringFileConverter.API.Tests\bin\Debug\TestDataFiles\bigstock-Test-word-on-white-keyboard-27134336.jpg
+C:\Users\CharlesKuperus\Source\KC\Programming-Windows-Desktop\Tools\Base64StringFileConverter\Base64StringFileConverter.API.Tests\bin\Debug\TestDataFiles\PM5544_with_non-PAL_signals.png
+C:\Users\CharlesKuperus\Source\KC\Programming-Windows-Desktop\Tools\Base64StringFileConverter\Base64StringFileConverter.API.Tests\bin\Debug\TestDataFiles\tv-test-pattern-146649_960_720.png
+C:\Users\CharlesKuperus\Source\KC\Programming-Windows-Desktop\Tools\Base64StringFileConverter\Base64StringFileConverter.API.Tests\bin\Debug\Base64StringFileConverter.API.Tests.dll
+C:\Users\CharlesKuperus\Source\KC\Programming-Windows-Desktop\Tools\Base64StringFileConverter\Base64StringFileConverter.API.Tests\bin\Debug\Base64StringFileConverter.API.Tests.pdb
+C:\Users\CharlesKuperus\Source\KC\Programming-Windows-Desktop\Tools\Base64StringFileConverter\Base64StringFileConverter.API.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\CharlesKuperus\Source\KC\Programming-Windows-Desktop\Tools\Base64StringFileConverter\Base64StringFileConverter.API.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\CharlesKuperus\Source\KC\Programming-Windows-Desktop\Tools\Base64StringFileConverter\Base64StringFileConverter.API.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\CharlesKuperus\Source\KC\Programming-Windows-Desktop\Tools\Base64StringFileConverter\Base64StringFileConverter.API.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\CharlesKuperus\Source\KC\Programming-Windows-Desktop\Tools\Base64StringFileConverter\Base64StringFileConverter.API.Tests\obj\Debug\Base64StringFileConverter.API.Tests.csprojResolveAssemblyReference.cache
+C:\Users\CharlesKuperus\Source\KC\Programming-Windows-Desktop\Tools\Base64StringFileConverter\Base64StringFileConverter.API.Tests\obj\Debug\Base64StringFileConverter.API.Tests.csproj.CoreCompileInputs.cache
+C:\Users\CharlesKuperus\Source\KC\Programming-Windows-Desktop\Tools\Base64StringFileConverter\Base64StringFileConverter.API.Tests\obj\Debug\Base64StringFileConverter.API.Tests.dll
+C:\Users\CharlesKuperus\Source\KC\Programming-Windows-Desktop\Tools\Base64StringFileConverter\Base64StringFileConverter.API.Tests\obj\Debug\Base64StringFileConverter.API.Tests.pdb

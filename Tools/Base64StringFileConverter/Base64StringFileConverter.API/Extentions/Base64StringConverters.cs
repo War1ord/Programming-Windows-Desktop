@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 
 namespace Base64StringFileConverter.API
 {
@@ -37,6 +38,14 @@ namespace Base64StringFileConverter.API
 				throw new ArgumentNullException(nameof(fileContent));
 			else
 				return Convert.ToBase64String(fileContent);
+		}
+
+		public static byte[] FromBase64ByteArray(this byte[] fileContentBase64Bytes)
+		{
+			if (fileContentBase64Bytes == null)
+				throw new ArgumentNullException(nameof(fileContentBase64Bytes));
+			else
+				return Convert.FromBase64String(Encoding.ASCII.GetString(fileContentBase64Bytes));
 		}
 
 	}
