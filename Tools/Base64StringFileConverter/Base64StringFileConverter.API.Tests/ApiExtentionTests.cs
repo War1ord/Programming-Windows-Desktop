@@ -1,6 +1,7 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.IO;
+using System.Linq;
 
 namespace Base64StringFileConverter.API.Tests
 {
@@ -15,7 +16,14 @@ namespace Base64StringFileConverter.API.Tests
 					Environment.CurrentDirectory,
 					"TestDataFiles"
 				);
-
+			var list = Directory
+				.GetFiles(testDataFilesPath, "*.*", SearchOption.AllDirectories)
+				.Select(file => new
+				{
+					Info = new FileInfo(file),
+					Content = File.ReadAllBytes(file).ToBase64String(),
+				})
+				.ToArray();
 		}
 	}
 }
