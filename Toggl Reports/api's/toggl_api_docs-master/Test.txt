@@ -1,0 +1,16 @@
+[TestMethod]
+public void TestTogglApiAssemble()
+{
+	var apiKey = "3a45c4e738ff1408708896ab88afbfdf";
+	var service = new Toggl.Services.TimeEntryService(apiKey);
+	var prams = new TimeEntryParams();
+	// there is an issue with the date ranges have
+	// to step out of the range on the end.
+	// To capture the end of the billing range day + 1
+	prams.StartDate = DateTime.Now.AddMonths(-1);
+	prams.EndDate = DateTime.Now;
+
+	//var timeEntries = service.List(prams);
+	//var hours = timeEntries.Where(w => !string.IsNullOrEmpty(w.Description));
+	service.List();
+}
