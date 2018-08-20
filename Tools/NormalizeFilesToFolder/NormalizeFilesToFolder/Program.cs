@@ -14,6 +14,7 @@ namespace NormalizeFilesToFolder
     /// </summary>
     internal static class Program
     {
+        private const int MostLastCountOfParts = 4;
         private static readonly ConsoleColor defaultBackgroundColor = BackgroundColor;
         private static readonly ConsoleColor defaultForegroundColor = ForegroundColor;
 
@@ -70,7 +71,7 @@ namespace NormalizeFilesToFolder
         private static void MoveRenameFile(string file, string folderpath)
         {
             // > Get the 3 most last path parts
-            var parts = Get3MostLastPathParts(file);
+            var parts = GetMostLastPathParts(file, MostLastCountOfParts);
             // > Rebuild the filename to new filename
             var newFilename = string.Join(" - ", parts);
             WriteLine("New Filename: {0}", newFilename);
@@ -80,9 +81,8 @@ namespace NormalizeFilesToFolder
             File.Move(SourceFileName, DestFileName);
         }
 
-        private static string[] Get3MostLastPathParts(string file)
+        private static string[] GetMostLastPathParts(string file, int MostLastCountOfParts)
         {
-            const int MostLastCountOfParts = 3;
             var result = new List<string>();
             var parts = file.Split('\\');
             var lastparts = new string[0];
