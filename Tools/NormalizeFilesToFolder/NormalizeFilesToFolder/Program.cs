@@ -71,7 +71,8 @@ namespace NormalizeFilesToFolder
         private static void MoveRenameFile(string file, string folderpath)
         {
             // > Get the 3 most last path parts
-            var parts = GetMostLastPathParts(file, MostLastCountOfParts);
+            var pathToGetPartsFrom = file.Replace(folderpath, "");
+            var parts = GetMostLastPathParts(pathToGetPartsFrom, MostLastCountOfParts);
             // > Rebuild the filename to new filename
             var newFilename = string.Join(" - ", parts);
             WriteLine("New Filename: {0}", newFilename);
