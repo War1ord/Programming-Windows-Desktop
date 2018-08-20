@@ -89,7 +89,11 @@ namespace NormalizeFilesToFolder
             var lastparts = new string[0];
             for (var i = parts.Length - MostLastCountOfParts; i < parts.Length; i++)
             {
-                result.Add(parts[i]);
+                var part = parts[i];
+                if (!string.IsNullOrWhiteSpace(part))
+                {
+                    result.Add(part);
+                }
             }
             return result.ToArray();
         }
